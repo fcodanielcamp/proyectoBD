@@ -7,7 +7,7 @@ Prompt Indicar el password de sys
 connect sys/system as sysdba;
 
 prompt Creando el directorio
-CREATE OR REPLACE DIRECTORY csv_dir_tabla_externa AS '/unam-bd/proyecto/proyectoBD/tabla-externa';
+CREATE OR REPLACE DIRECTORY csv_dir_tabla_externa AS '/unam-bd/proyectoBD/tabla-externa';
 prompt Dando permisos al usuario apra el directorio
 GRANT READ, WRITE ON DIRECTORY csv_dir_tabla_externa TO vl_proy_admin;
 
