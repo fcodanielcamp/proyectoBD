@@ -1,12 +1,12 @@
 --@Autor(es): Vigi Garduño Marco Alejandro, López Campillo Francisco Daniel
 --@Fecha creación: 06/06/2024
---@Descripción: 
+--@Descripción: Creación de vistas de escenarios concretos.
 
 --Comentarios de la fecha, autores y descripcion
 
 prompt Conectando como vl_proy_admin
 connect vl_proy_admin/proyecto
-prompt 
+prompt Creando vistas.
 --Vista que representa a toda la jerarquía de centros de operaciones en un concentrado.
 create or replace view v_centro_operaciones(
   centro_operaciones_desnormalizada_id,clave,direccion,latitud,
