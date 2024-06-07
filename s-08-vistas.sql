@@ -29,9 +29,9 @@ create or replace view v_centro_operaciones(
 
 --Vista que permite a los empleados visualizar toda la información del catálogo en una tabla.
 create or replace view v_medicamento(
-  medicamento_id,sustancia_activa,nombre,cantidad
+  medicamento_id,nombre_medicamento_id,sustancia_activa,nombre,cantidad
 ) as
-  select medicamento_id,m.sustancia_activa,nm.nombre,pm.cantidad
+  select medicamento_id,nombre_medicamento_id,m.sustancia_activa,nm.nombre,pm.cantidad
   from medicamento m
   natural join nombre_medicamento nm
   natural join presentacion_medicamento pm;
@@ -40,7 +40,7 @@ create or replace view v_medicamento(
 create or replace view v_operacion(
     operacion_id,fecha,tipo,unidades,medicamento_id
 ) as
-  select operacion_id,o.fecha,o.tipo,om.unidades,pm.medicamento_id
+  select operacion_id,o.fecha,o.tipo,om.unidades,pm.nombre_medicamento_id
   from operacion o
   natural join operacion_medicamento om
   natural join presentacion_medicamento pm;
