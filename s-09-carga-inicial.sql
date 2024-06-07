@@ -202,3 +202,11 @@ insert into tarjeta (tarjeta_id, numero_tarjeta, mes_expiracion, anio_expiracion
 insert into tarjeta (tarjeta_id, numero_tarjeta, mes_expiracion, anio_expiracion, cliente_id) values (tarjeta_seq.nextval, 4053906317529036, 3, 2, 34);
 insert into tarjeta (tarjeta_id, numero_tarjeta, mes_expiracion, anio_expiracion, cliente_id) values (tarjeta_seq.nextval, 1934997640805212, 1, 9, 6);
 insert into tarjeta (tarjeta_id, numero_tarjeta, mes_expiracion, anio_expiracion, cliente_id) values (tarjeta_seq.nextval, 1572172683757841, 2, 80, 39);
+
+
+Prompt ingresando los estados existentes de acuerdo al caso de estudio a la tabla estado_pedido
+insert into estado_pedido (estado_pedido_id, clave, descripcion) values (estado_pedido_seq.nextval, 'CAPTURADO', 'El pedido ha sido registrado en el sistema pero aún no ha sido procesado ni enviado.');
+insert into estado_pedido (estado_pedido_id, clave, descripcion) values (estado_pedido_seq.nextval, 'EN TRÁNSITO', 'El pedido ha sido procesado y enviado, y se encuentra actualmente en camino hacia su destino.');
+insert into estado_pedido (estado_pedido_id, clave, descripcion) values (estado_pedido_seq.nextval, 'ENTREGADO', 'El pedido ha sido entregado satisfactoriamente al cliente.');
+insert into estado_pedido (estado_pedido_id, clave, descripcion) values (estado_pedido_seq.nextval, 'DEVUELTO', 'El pedido ha sido devuelto por alguna razón, como un error en la dirección de entrega o la negativa del cliente a aceptarlo.');
+insert into estado_pedido (estado_pedido_id, clave, descripcion) values (estado_pedido_seq.nextval, 'CANCELADO', 'El pedido ha sido cancelado debido a la solicitud del cliente o a problemas de disponibilidad de productos.');

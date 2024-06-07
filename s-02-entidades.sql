@@ -155,8 +155,8 @@ create table ubicacion(
 
 create table estado_pedido(
   estado_pedido_id number(1,0) constraint estado_pedido_pk primary key,
-  clave                       varchar2(11)     not null,
-  descripcion                 varchar2(100)    not null
+  clave                       varchar2(12)     not null,
+  descripcion                 varchar2(150)    not null
 );
 
 create table pedido(
