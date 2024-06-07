@@ -491,3 +491,17 @@ insert into almacen (centro_operaciones_id, tipo, capacidad, documento, almacen_
 insert into almacen (centro_operaciones_id, tipo, capacidad, documento, almacen_contingencia_id) values (22, 'D', 327638, empty_blob(), null);
 insert into almacen (centro_operaciones_id, tipo, capacidad, documento, almacen_contingencia_id) values (25, 'M', 446230, empty_blob(), null);
 
+Prompt Insertando datos iniciales en farmacia
+insert into farmacia (centro_operaciones_id, rfc, direccion_web, gerente_id) values (1, 'XROU72703255', 'http://www\.1089mTkl92Y2tOmZAm1NTO\.com', 14);
+insert into farmacia (centro_operaciones_id, rfc, direccion_web, gerente_id) values (3, 'GBWW46065452', 'http://www\.VdU1PJ4wE81Gh6fi7Z3BkQfK\.com', 59);
+insert into farmacia (centro_operaciones_id, rfc, direccion_web, gerente_id) values (4, 'RZYB77066035', 'https://utcOq5SKhNQviN7p\.com', 47);
+insert into farmacia (centro_operaciones_id, rfc, direccion_web, gerente_id) values (6, 'MWCG77557114', 'http://Y3FkGAEj9zkB6wOhhtvp08sCt\.com', 45);
+insert into farmacia (centro_operaciones_id, rfc, direccion_web, gerente_id) values (7, 'KBSM5507231P', 'https://www\.7X3ibVOs728GFb2Z9UWBOYaJ79U1p\.com', 52);
+insert into farmacia (centro_operaciones_id, rfc, direccion_web, gerente_id) values (10, 'PFGR871397CY', 'https://www\.D1kkM282S49komi56KCMV\.com', 67);
+insert into farmacia (centro_operaciones_id, rfc, direccion_web, gerente_id) values (12, 'KUSN00893423', 'http://www\.taiu9ZA04k8Dx7q\.com', 46);
+insert into farmacia (centro_operaciones_id, rfc, direccion_web, gerente_id) values (13, 'FGIN3463321B', 'https://9z47ph19HqJF6nMo993YOYh80\.com', 54);
+insert into farmacia (centro_operaciones_id, rfc, direccion_web, gerente_id) values (15, 'XPMN407215T3', 'https://2lvrHzATj3JEfMFZDY\.com', 36);
+insert into farmacia (centro_operaciones_id, rfc, direccion_web, gerente_id) values (17, 'QEMS3954445V', 'https://Goq25g3uC1Nb586Y8\.com', 16);
+insert into farmacia (centro_operaciones_id, rfc, direccion_web, gerente_id) values (20, 'VTXE801485DO', 'https://8N5mL3Rgk0Zr05UfT3G4U0lsgYzw\.com', 7);
+insert into farmacia (centro_operaciones_id, rfc, direccion_web, gerente_id) values (22, 'BEWB396214P3', 'http://www\.usKws61HaZ7qSy2N8a7YxNFUYa3\.com', 9);
+insert into farmacia (centro_operaciones_id, rfc, direccion_web, gerente_id) values (24, 'RMYZ413940D5', 'http://www\.kr73KIcO4zagE77BZw4\.com', 3);
