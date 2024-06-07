@@ -477,3 +477,17 @@ insert into centro_operaciones (centro_operaciones_id, clave, direccion, latitud
 insert into centro_operaciones (centro_operaciones_id, clave, direccion, latitud, longitud, telefono, es_farmacia, es_almacen, es_oficina) values (centro_operaciones_seq.nextval, 'Jfmz50', 'Radloff', 'N4°4''9''''', 'E53°64''''36', '6223428267', 0, 0, 1);
 insert into centro_operaciones (centro_operaciones_id, clave, direccion, latitud, longitud, telefono, es_farmacia, es_almacen, es_oficina) values (centro_operaciones_seq.nextval, 'VJx7AQ', 'Boards', 'S5°8''54''''', 'W79°83''''70', '7252917371', 1, 0, 0);
 insert into centro_operaciones (centro_operaciones_id, clave, direccion, latitud, longitud, telefono, es_farmacia, es_almacen, es_oficina) values (centro_operaciones_seq.nextval, '0aH7LH', 'Wyldish', 'S54°08''34''''', 'W20°38''''69', '2813698145', 0, 1, 0);
+
+Prompt Insertando datos iniciales en almacen
+insert into almacen (centro_operaciones_id, tipo, capacidad, documento, almacen_contingencia_id) values (1, 'C', 303949, empty_blob(), null);
+insert into almacen (centro_operaciones_id, tipo, capacidad, documento, almacen_contingencia_id) values (2, 'C', 180229, empty_blob(), null);
+insert into almacen (centro_operaciones_id, tipo, capacidad, documento, almacen_contingencia_id) values (4, 'D', 102297, empty_blob(), null);
+insert into almacen (centro_operaciones_id, tipo, capacidad, documento, almacen_contingencia_id) values (9, 'C', 453513, empty_blob(), null);
+insert into almacen (centro_operaciones_id, tipo, capacidad, documento, almacen_contingencia_id) values (11, 'D', 291677, empty_blob(), 1);
+insert into almacen (centro_operaciones_id, tipo, capacidad, documento, almacen_contingencia_id) values (14, 'C', 294223, empty_blob(), 2);
+insert into almacen (centro_operaciones_id, tipo, capacidad, documento, almacen_contingencia_id) values (15, 'C', 323726, empty_blob(), 4);
+insert into almacen (centro_operaciones_id, tipo, capacidad, documento, almacen_contingencia_id) values (17, 'M', 86654, empty_blob(), 9);
+insert into almacen (centro_operaciones_id, tipo, capacidad, documento, almacen_contingencia_id) values (19, 'D', 71749, empty_blob(), null);
+insert into almacen (centro_operaciones_id, tipo, capacidad, documento, almacen_contingencia_id) values (22, 'D', 327638, empty_blob(), null);
+insert into almacen (centro_operaciones_id, tipo, capacidad, documento, almacen_contingencia_id) values (25, 'M', 446230, empty_blob(), null);
+
