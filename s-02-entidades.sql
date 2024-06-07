@@ -149,8 +149,8 @@ create table tarjeta(
 
 create table ubicacion(
   ubicacion_id number(10,0) constraint ubicacion_pk primary key,
-  latitud                     varchar2(10)    not null,
-  longitud                    varchar2(10)    not null
+  latitud                     varchar2(20)    not null,
+  longitud                    varchar2(20)    not null
 );
 
 create table estado_pedido(
