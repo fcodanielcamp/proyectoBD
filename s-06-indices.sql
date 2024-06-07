@@ -20,8 +20,8 @@ on operacion(almacen_id);
 create index nombre_medicamento_medicamento_id_ix
 on nombre_medicamento(medicamento_id);
 --Se suele hacer un join del medicamento con sus presentaciones correspondientes.
-create index presentacion_medicamento_medicamento_id_ix
-on presentacion_medicamento(medicamento_id);
+create index presentacion_medicamento_nombre_medicamento_id_ix
+on presentacion_medicamento(nombre_medicamento_id);
 --Por una parte, sirve para los joins comunes.
 --Por otra, existe el atributo cantidad para evitar esta duplicidad.
 create unique index operacion_medicamento_iuk

@@ -101,8 +101,8 @@ create table nombre_medicamento(
 create table presentacion_medicamento(
   presentacion_medicamento_id number(5,0) constraint presentacion_medicamento_pk primary key,
   cantidad                    number(3,0)     not null,
-  medicamento_id not null constraint presentacion_medicamento_medicamento_id_fk 
-    references medicamento(medicamento_id)
+  nombre_medicamento_id not null constraint presentacion_medicamento_medicamento_id_fk 
+    references nombre_medicamento(nombre_medicamento_id)
 );
 
 create table operacion_medicamento(

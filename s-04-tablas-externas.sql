@@ -50,4 +50,4 @@ REJECT LIMIT UNLIMITED;
 !chmod 777 /unam-bd/proyectoBD/tabla-externa
 
 -- Seleccionar datos de la tabla externa
-SELECT * FROM entradas_medicamento;
+--SELECT * FROM entradas_medicamento;
