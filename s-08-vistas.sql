@@ -45,4 +45,4 @@ create or replace view v_operacion(
   natural join operacion_medicamento om
   natural join presentacion_medicamento pm;
 prompt Listo!
---disconnect
+disconnect
