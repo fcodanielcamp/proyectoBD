@@ -88,7 +88,7 @@ create table operacion(
 create table medicamento(
   medicamento_id number(10,0) constraint medicamento_pk primary key,
   sustancia_activa            varchar2(40)    not null,
-  descripcion                 varchar2(40)    not null
+  descripcion                 varchar2(160)    not null
 );
 
 create table nombre_medicamento(
@@ -149,14 +149,14 @@ create table tarjeta(
 
 create table ubicacion(
   ubicacion_id number(10,0) constraint ubicacion_pk primary key,
-  latitud                     varchar2(10)    not null,
-  longitud                    varchar2(10)    not null
+  latitud                     varchar2(20)    not null,
+  longitud                    varchar2(20)    not null
 );
 
 create table estado_pedido(
   estado_pedido_id number(1,0) constraint estado_pedido_pk primary key,
-  clave                       varchar2(11)     not null,
-  descripcion                 varchar2(100)    not null
+  clave                       varchar2(12)     not null,
+  descripcion                 varchar2(150)    not null
 );
 
 create table pedido(
