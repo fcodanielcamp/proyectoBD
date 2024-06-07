@@ -13,8 +13,8 @@ create global temporary table centro_operaciones_desnormalizada(
     constraint centro_operaciones_desnormalizada_pk primary key,
   clave                       char(6)         not null,
   direccion                   varchar2(100)   not null,
-  latitud                     varchar2(10)    not null,
-  longitud                    varchar2(10)    not null,
+  latitud                     varchar2(20)    not null,
+  longitud                    varchar2(20)    not null,
   telefono                    numeric(10,0)   not null,
   es_farmacia                 numeric(1,0)    not null,
   es_almacen                  numeric(1,0)    not null,
@@ -75,12 +75,12 @@ set cod.clave=vco.clave,cod.direccion=vco.direccion,cod.latitud=vco.latitud,
   cod.rfc_farmacia=vco.rfc_farmacia,cod.direccion_web_farmacia=vco.direccion_web_farmacia,
   cod.gerente_farmacia_id=vco.gerente_farmacia_id
 when not matched then insert
-(cod.clave,cod.direccion,cod.latitud,cod.longitud,cod.telefono,cod.es_farmacia,
+(cod.centro_operaciones_desnormalizada_id,cod.clave,cod.direccion,cod.latitud,cod.longitud,cod.telefono,cod.es_farmacia,
   cod.es_almacen,cod.es_oficina,cod.nombre_oficina,cod.telefono_oficina,cod.clave_presupuestal_oficina,
   cod.almacen_contingencia_id,cod.tipo_almacen,cod.capacidad_almacen,cod.documento_almacen,
   cod.rfc_farmacia,cod.direccion_web_farmacia,cod.gerente_farmacia_id)
 values
-(vco.clave,vco.direccion,vco.latitud,vco.longitud,vco.telefono,vco.es_farmacia,
+(vco.centro_operaciones_desnormalizada_id,vco.clave,vco.direccion,vco.latitud,vco.longitud,vco.telefono,vco.es_farmacia,
   vco.es_almacen,vco.es_oficina,vco.nombre_oficina,vco.telefono_oficina,vco.clave_presupuestal_oficina,
   vco.almacen_contingencia_id,vco.tipo_almacen,vco.capacidad_almacen,vco.documento_almacen,
   vco.rfc_farmacia,vco.direccion_web_farmacia,vco.gerente_farmacia_id);
