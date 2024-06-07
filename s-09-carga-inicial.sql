@@ -210,3 +210,45 @@ insert into estado_pedido (estado_pedido_id, clave, descripcion) values (estado_
 insert into estado_pedido (estado_pedido_id, clave, descripcion) values (estado_pedido_seq.nextval, 'ENTREGADO', 'El pedido ha sido entregado satisfactoriamente al cliente.');
 insert into estado_pedido (estado_pedido_id, clave, descripcion) values (estado_pedido_seq.nextval, 'DEVUELTO', 'El pedido ha sido devuelto por alguna razón, como un error en la dirección de entrega o la negativa del cliente a aceptarlo.');
 insert into estado_pedido (estado_pedido_id, clave, descripcion) values (estado_pedido_seq.nextval, 'CANCELADO', 'El pedido ha sido cancelado debido a la solicitud del cliente o a problemas de disponibilidad de productos.');
+
+
+Prompt ingresando medicamentos para su tabla correspondiente
+insert into medicamento (medicamento_id, sustancia_activa, descripcion) values (medicamento_seq.nextval,'Paracetamol', 'Analgésico y antipirético comúnmente utilizado para tratar el dolor y la fiebre.');
+insert into medicamento (medicamento_id, sustancia_activa, descripcion) values (medicamento_seq.nextval,'Omeprazol', 'Inhibidor de la bomba de protones utilizado para reducir la producción de ácido estomacal.');
+insert into medicamento (medicamento_id, sustancia_activa, descripcion) values (medicamento_seq.nextval,'Loratadina', 'Antihistamínico utilizado para aliviar los síntomas de las alergias.');
+insert into medicamento (medicamento_id, sustancia_activa, descripcion) values (medicamento_seq.nextval,'Amoxicilina', 'Antibiótico utilizado para tratar una variedad de infecciones bacterianas.');
+insert into medicamento (medicamento_id, sustancia_activa, descripcion) values (medicamento_seq.nextval,'Atorvastatina', 'Estatina utilizada para reducir los niveles de colesterol.');
+insert into medicamento (medicamento_id, sustancia_activa, descripcion) values (medicamento_seq.nextval,'Ciprofloxacino', 'Antibiótico de amplio espectro utilizado para tratar diversas infecciones bacterianas.');
+insert into medicamento (medicamento_id, sustancia_activa, descripcion) values (medicamento_seq.nextval,'Metformina', 'Antidiabético oral utilizado para tratar la diabetes tipo 2.');
+insert into medicamento (medicamento_id, sustancia_activa, descripcion) values (medicamento_seq.nextval,'Sertralina', 'Antidepresivo de la clase de los inhibidores selectivos de la recaptación de serotonina.');
+insert into medicamento (medicamento_id, sustancia_activa, descripcion) values (medicamento_seq.nextval,'Ranitidina', 'Antagonista de los receptores H2 utilizado para reducir la producción de ácido estomacal.');
+insert into medicamento (medicamento_id, sustancia_activa, descripcion) values (medicamento_seq.nextval,'Tramadol', 'Analgésico opiáceo utilizado para tratar el dolor moderado a severo.');
+insert into medicamento (medicamento_id, sustancia_activa, descripcion) values (medicamento_seq.nextval,'Diazepam', 'Benzodiacepina utilizada para tratar la ansiedad, los trastornos del sueño y las convulsiones.');
+insert into medicamento (medicamento_id, sustancia_activa, descripcion) values (medicamento_seq.nextval,'Cetirizina', 'Antihistamínico de segunda generación utilizado para tratar las alergias.');
+insert into medicamento (medicamento_id, sustancia_activa, descripcion) values (medicamento_seq.nextval,'Metronidazol', 'Antibiótico y antiprotozoario utilizado para tratar infecciones bacterianas y parasitarias.');
+insert into medicamento (medicamento_id, sustancia_activa, descripcion) values (medicamento_seq.nextval,'Amlodipino', 'Bloqueador de los canales de calcio utilizado para tratar la hipertensión y la angina de pecho.');
+insert into medicamento (medicamento_id, sustancia_activa, descripcion) values (medicamento_seq.nextval,'Fluoxetina', 'Antidepresivo de la clase de los inhibidores selectivos de la recaptación de serotonina.');
+insert into medicamento (medicamento_id, sustancia_activa, descripcion) values (medicamento_seq.nextval,'Clonazepam', 'Benzodiacepina utilizada para tratar los trastornos de ansiedad y las convulsiones.');
+insert into medicamento (medicamento_id, sustancia_activa, descripcion) values (medicamento_seq.nextval,'Levofloxacino', 'Antibiótico de amplio espectro utilizado para tratar diversas infecciones bacterianas.');
+insert into medicamento (medicamento_id, sustancia_activa, descripcion) values (medicamento_seq.nextval,'Losartán', 'Bloqueador del receptor de angiotensina II utilizado para tratar la hipertensión.');
+insert into medicamento (medicamento_id, sustancia_activa, descripcion) values (medicamento_seq.nextval,'Fluconazol', 'Antifúngico utilizado para tratar las infecciones fúngicas, incluida la candidiasis.');
+insert into medicamento (medicamento_id, sustancia_activa, descripcion) values (medicamento_seq.nextval,'Ceftriaxona', 'Antibiótico de amplio espectro utilizado para tratar una variedad de infecciones bacterianas.');
+insert into medicamento (medicamento_id, sustancia_activa, descripcion) values (medicamento_seq.nextval,'Itraconazol', 'Antifúngico utilizado para tratar las infecciones fúngicas, incluida la onicomicosis.');
+insert into medicamento (medicamento_id, sustancia_activa, descripcion) values (medicamento_seq.nextval,'Pantoprazol', 'Inhibidor de la bomba de protones utilizado para reducir la producción de ácido estomacal.');
+insert into medicamento (medicamento_id, sustancia_activa, descripcion) values (medicamento_seq.nextval,'Doxiciclina', 'Antibiótico de tetraciclina utilizado para tratar diversas infecciones bacterianas.');
+insert into medicamento (medicamento_id, sustancia_activa, descripcion) values (medicamento_seq.nextval,'Escitalopram', 'Antidepresivo de la clase de los inhibidores selectivos de la recaptación de serotonina.');
+insert into medicamento (medicamento_id, sustancia_activa, descripcion) values (medicamento_seq.nextval,'Naproxeno', 'Antiinflamatorio no esteroideo utilizado para aliviar el dolor, la fiebre y la inflamación.');
+insert into medicamento (medicamento_id, sustancia_activa, descripcion) values (medicamento_seq.nextval,'Cefalexina', 'Antibiótico de cefalosporina utilizado para tratar diversas infecciones bacterianas.');
+insert into medicamento (medicamento_id, sustancia_activa, descripcion) values (medicamento_seq.nextval,'Hidroclorotiazida', 'Diurético utilizado para tratar la hipertensión y la retención de líquidos.');
+insert into medicamento (medicamento_id, sustancia_activa, descripcion) values (medicamento_seq.nextval,'Budesonida', 'Corticoide inhalado utilizado para tratar el asma y la enfermedad pulmonar obstructiva crónica.');
+insert into medicamento (medicamento_id, sustancia_activa, descripcion) values (medicamento_seq.nextval,'Furosemida', 'Diurético de asa utilizado para tratar la hipertensión y la retención de líquidos.');
+insert into medicamento (medicamento_id, sustancia_activa, descripcion) values (medicamento_seq.nextval,'Alprazolam', 'Benzodiacepina utilizada para tratar los trastornos de ansiedad y el trastorno de pánico.');
+insert into medicamento (medicamento_id, sustancia_activa, descripcion) values (medicamento_seq.nextval,'Carbamazepina', 'Antiepiléptico y estabilizador del estado de ánimo utilizado para tratar la epilepsia y el trastorno bipolar.');
+insert into medicamento (medicamento_id, sustancia_activa, descripcion) values (medicamento_seq.nextval,'Azitromicina', 'Antibiótico macrólido utilizado para tratar una variedad de infecciones bacterianas.');
+insert into medicamento (medicamento_id, sustancia_activa, descripcion) values (medicamento_seq.nextval,'Montelukast', 'Antagonista del receptor de leucotrienos utilizado para tratar el asma y las alergias.');
+insert into medicamento (medicamento_id, sustancia_activa, descripcion) values (medicamento_seq.nextval,'Venlafaxina', 'Antidepresivo de la clase de los inhibidores de la recaptación de serotonina y noradrenalina.');
+insert into medicamento (medicamento_id, sustancia_activa, descripcion) values (medicamento_seq.nextval,'Sulfametoxazol / Trimetoprima', 'Antibiótico combinado utilizado para tratar infecciones bacterianas.');
+insert into medicamento (medicamento_id, sustancia_activa, descripcion) values (medicamento_seq.nextval,'Citalopram', 'Antidepresivo de la clase de los inhibidores selectivos de la recaptación de serotonina.');
+insert into medicamento (medicamento_id, sustancia_activa, descripcion) values (medicamento_seq.nextval,'Prednisona', 'Corticoide utilizado para tratar diversas condiciones inflamatorias y autoinmunes.');
+insert into medicamento (medicamento_id, sustancia_activa, descripcion) values (medicamento_seq.nextval,'Metoclopramida', 'Agonista del receptor de dopamina utilizado para tratar las náuseas y los trastornos de la motilidad gastrointestinal.');
+insert into medicamento (medicamento_id, sustancia_activa, descripcion) values (medicamento_seq.nextval,'Acetaminofén', 'Analgésico y antipirético utilizado para tratar el dolor y la fiebre.');
