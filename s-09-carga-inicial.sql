@@ -255,90 +255,82 @@ insert into medicamento (medicamento_id, sustancia_activa, descripcion) values (
 insert into medicamento (medicamento_id, sustancia_activa, descripcion) values (medicamento_seq.nextval,'Ibuprofeno', 'Antiinflamatorio no esteroideo utilizado para aliviar el dolor, la fiebre y la inflamación.');
 
 
+
+Prompt insertando datos iniciales en tabla nombre_medicamento
+insert into nombre_medicamento (nombre_medicamento_id, nombre, medicamento_id) values (nombre_medicamento_seq.nextval, 'XL3', 30);
+insert into nombre_medicamento (nombre_medicamento_id, nombre, medicamento_id) values (nombre_medicamento_seq.nextval, 'Excedrin', 10);
+insert into nombre_medicamento (nombre_medicamento_id, nombre, medicamento_id) values (nombre_medicamento_seq.nextval, 'NyQuil', 8);
+insert into nombre_medicamento (nombre_medicamento_id, nombre, medicamento_id) values (nombre_medicamento_seq.nextval, 'Motrin', 5);
+insert into nombre_medicamento (nombre_medicamento_id, nombre, medicamento_id) values (nombre_medicamento_seq.nextval, 'Aleve', 1);
+insert into nombre_medicamento (nombre_medicamento_id, nombre, medicamento_id) values (nombre_medicamento_seq.nextval, 'Motrin', 20);
+insert into nombre_medicamento (nombre_medicamento_id, nombre, medicamento_id) values (nombre_medicamento_seq.nextval, 'Imodium', 30);
+insert into nombre_medicamento (nombre_medicamento_id, nombre, medicamento_id) values (nombre_medicamento_seq.nextval, 'Imodium', 37);
+insert into nombre_medicamento (nombre_medicamento_id, nombre, medicamento_id) values (nombre_medicamento_seq.nextval, 'Excedrin', 24);
+insert into nombre_medicamento (nombre_medicamento_id, nombre, medicamento_id) values (nombre_medicamento_seq.nextval, 'Excedrin', 32);
+insert into nombre_medicamento (nombre_medicamento_id, nombre, medicamento_id) values (nombre_medicamento_seq.nextval, 'Robitussin', 31);
+insert into nombre_medicamento (nombre_medicamento_id, nombre, medicamento_id) values (nombre_medicamento_seq.nextval, 'Allegra', 30);
+insert into nombre_medicamento (nombre_medicamento_id, nombre, medicamento_id) values (nombre_medicamento_seq.nextval, 'Pepto-Bismol', 20);
+insert into nombre_medicamento (nombre_medicamento_id, nombre, medicamento_id) values (nombre_medicamento_seq.nextval, 'Imodium', 30);
+insert into nombre_medicamento (nombre_medicamento_id, nombre, medicamento_id) values (nombre_medicamento_seq.nextval, 'Dramamine', 3);
+insert into nombre_medicamento (nombre_medicamento_id, nombre, medicamento_id) values (nombre_medicamento_seq.nextval, 'NyQuil', 17);
+insert into nombre_medicamento (nombre_medicamento_id, nombre, medicamento_id) values (nombre_medicamento_seq.nextval, 'Excedrin', 15);
+insert into nombre_medicamento (nombre_medicamento_id, nombre, medicamento_id) values (nombre_medicamento_seq.nextval, 'Robitussin', 36);
+insert into nombre_medicamento (nombre_medicamento_id, nombre, medicamento_id) values (nombre_medicamento_seq.nextval, 'Robitussin', 38);
+insert into nombre_medicamento (nombre_medicamento_id, nombre, medicamento_id) values (nombre_medicamento_seq.nextval, 'Benadryl', 25);
+insert into nombre_medicamento (nombre_medicamento_id, nombre, medicamento_id) values (nombre_medicamento_seq.nextval, 'Zantac', 22);
+insert into nombre_medicamento (nombre_medicamento_id, nombre, medicamento_id) values (nombre_medicamento_seq.nextval, 'Aleve', 1);
+insert into nombre_medicamento (nombre_medicamento_id, nombre, medicamento_id) values (nombre_medicamento_seq.nextval, 'Motrin', 33);
+insert into nombre_medicamento (nombre_medicamento_id, nombre, medicamento_id) values (nombre_medicamento_seq.nextval, 'Robitussin', 8);
+insert into nombre_medicamento (nombre_medicamento_id, nombre, medicamento_id) values (nombre_medicamento_seq.nextval, 'Sudafed', 39);
+insert into nombre_medicamento (nombre_medicamento_id, nombre, medicamento_id) values (nombre_medicamento_seq.nextval, 'Dramamine', 7);
+insert into nombre_medicamento (nombre_medicamento_id, nombre, medicamento_id) values (nombre_medicamento_seq.nextval, 'Aleve', 21);
+insert into nombre_medicamento (nombre_medicamento_id, nombre, medicamento_id) values (nombre_medicamento_seq.nextval, 'DayQuil', 39);
+insert into nombre_medicamento (nombre_medicamento_id, nombre, medicamento_id) values (nombre_medicamento_seq.nextval, 'Imodium', 34);
+insert into nombre_medicamento (nombre_medicamento_id, nombre, medicamento_id) values (nombre_medicamento_seq.nextval, 'NyQuil', 22);
+insert into nombre_medicamento (nombre_medicamento_id, nombre, medicamento_id) values (nombre_medicamento_seq.nextval, 'Dramamine', 10);
+insert into nombre_medicamento (nombre_medicamento_id, nombre, medicamento_id) values (nombre_medicamento_seq.nextval, 'Sudafed', 20);
+insert into nombre_medicamento (nombre_medicamento_id, nombre, medicamento_id) values (nombre_medicamento_seq.nextval, 'Mucinex', 27);
+insert into nombre_medicamento (nombre_medicamento_id, nombre, medicamento_id) values (nombre_medicamento_seq.nextval, 'Allegra', 8);
+insert into nombre_medicamento (nombre_medicamento_id, nombre, medicamento_id) values (nombre_medicamento_seq.nextval, 'Pepto-Bismol', 19);
+insert into nombre_medicamento (nombre_medicamento_id, nombre, medicamento_id) values (nombre_medicamento_seq.nextval, 'Benadryl', 3);
+insert into nombre_medicamento (nombre_medicamento_id, nombre, medicamento_id) values (nombre_medicamento_seq.nextval, 'Pepto-Bismol', 9);
+insert into nombre_medicamento (nombre_medicamento_id, nombre, medicamento_id) values (nombre_medicamento_seq.nextval, 'Aleve', 23);
+insert into nombre_medicamento (nombre_medicamento_id, nombre, medicamento_id) values (nombre_medicamento_seq.nextval, 'Benadryl', 5);
+insert into nombre_medicamento (nombre_medicamento_id, nombre, medicamento_id) values (nombre_medicamento_seq.nextval, 'Aleve', 26);
+insert into nombre_medicamento (nombre_medicamento_id, nombre, medicamento_id) values (nombre_medicamento_seq.nextval, 'Sudafed', 3);
+insert into nombre_medicamento (nombre_medicamento_id, nombre, medicamento_id) values (nombre_medicamento_seq.nextval, 'Benadryl', 9);
+insert into nombre_medicamento (nombre_medicamento_id, nombre, medicamento_id) values (nombre_medicamento_seq.nextval, 'Tums', 11);
+insert into nombre_medicamento (nombre_medicamento_id, nombre, medicamento_id) values (nombre_medicamento_seq.nextval, 'Excedrin', 33);
+insert into nombre_medicamento (nombre_medicamento_id, nombre, medicamento_id) values (nombre_medicamento_seq.nextval, 'Motrin', 31);
+insert into nombre_medicamento (nombre_medicamento_id, nombre, medicamento_id) values (nombre_medicamento_seq.nextval, 'Pepto-Bismol', 10);
+insert into nombre_medicamento (nombre_medicamento_id, nombre, medicamento_id) values (nombre_medicamento_seq.nextval, 'Dramamine', 1);
+insert into nombre_medicamento (nombre_medicamento_id, nombre, medicamento_id) values (nombre_medicamento_seq.nextval, 'Robitussin', 13);
+insert into nombre_medicamento (nombre_medicamento_id, nombre, medicamento_id) values (nombre_medicamento_seq.nextval, 'Zyrtec', 10);
+insert into nombre_medicamento (nombre_medicamento_id, nombre, medicamento_id) values (nombre_medicamento_seq.nextval, 'Pepto-Bismol', 16);
+insert into nombre_medicamento (nombre_medicamento_id, nombre, medicamento_id) values (nombre_medicamento_seq.nextval, 'Pepto-Bismol', 9);
+insert into nombre_medicamento (nombre_medicamento_id, nombre, medicamento_id) values (nombre_medicamento_seq.nextval, 'Aleve', 26);
+insert into nombre_medicamento (nombre_medicamento_id, nombre, medicamento_id) values (nombre_medicamento_seq.nextval, 'Pepto-Bismol', 1);
+insert into nombre_medicamento (nombre_medicamento_id, nombre, medicamento_id) values (nombre_medicamento_seq.nextval, 'Claritin', 28);
+insert into nombre_medicamento (nombre_medicamento_id, nombre, medicamento_id) values (nombre_medicamento_seq.nextval, 'Allegra', 20);
+insert into nombre_medicamento (nombre_medicamento_id, nombre, medicamento_id) values (nombre_medicamento_seq.nextval, 'Claritin', 12);
+insert into nombre_medicamento (nombre_medicamento_id, nombre, medicamento_id) values (nombre_medicamento_seq.nextval, 'Dramamine', 3);
+insert into nombre_medicamento (nombre_medicamento_id, nombre, medicamento_id) values (nombre_medicamento_seq.nextval, 'Allegra', 4);
+insert into nombre_medicamento (nombre_medicamento_id, nombre, medicamento_id) values (nombre_medicamento_seq.nextval, 'Zantac', 38);
+insert into nombre_medicamento (nombre_medicamento_id, nombre, medicamento_id) values (nombre_medicamento_seq.nextval, 'Tylenol', 17);
+insert into nombre_medicamento (nombre_medicamento_id, nombre, medicamento_id) values (nombre_medicamento_seq.nextval, 'Tylenol', 35);
+insert into nombre_medicamento (nombre_medicamento_id, nombre, medicamento_id) values (nombre_medicamento_seq.nextval, 'Benadryl', 37);
+insert into nombre_medicamento (nombre_medicamento_id, nombre, medicamento_id) values (nombre_medicamento_seq.nextval, 'Mucinex', 6);
+insert into nombre_medicamento (nombre_medicamento_id, nombre, medicamento_id) values (nombre_medicamento_seq.nextval, 'Benadryl', 27);
+insert into nombre_medicamento (nombre_medicamento_id, nombre, medicamento_id) values (nombre_medicamento_seq.nextval, 'Benadryl', 39);
+insert into nombre_medicamento (nombre_medicamento_id, nombre, medicamento_id) values (nombre_medicamento_seq.nextval, 'Zyrtec', 36);
+insert into nombre_medicamento (nombre_medicamento_id, nombre, medicamento_id) values (nombre_medicamento_seq.nextval, 'Imodium', 35);
+insert into nombre_medicamento (nombre_medicamento_id, nombre, medicamento_id) values (nombre_medicamento_seq.nextval, 'DayQuil', 1);
+insert into nombre_medicamento (nombre_medicamento_id, nombre, medicamento_id) values (nombre_medicamento_seq.nextval, 'Tylenol', 29);
+insert into nombre_medicamento (nombre_medicamento_id, nombre, medicamento_id) values (nombre_medicamento_seq.nextval, 'NyQuil', 20);
+insert into nombre_medicamento (nombre_medicamento_id, nombre, medicamento_id) values (nombre_medicamento_seq.nextval, 'Aleve', 17);
+
+
 Prompt insertando datos iniciales en empleado
-insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Vérane', 'Saddleton', 'Cottingham', '2022-11-14 03:40:31', 'XDR0158715630');
-insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Pélagie', 'Margery', 'Bullant', '2022-12-24 20:07:22', 'IZE6672753998');
-insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Kévina', 'Mailes', 'Jilliss', '2021-12-24 12:49:59', 'PDG3912214559');
-insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Táng', 'Basilone', 'Copcott', '2024-01-30 01:06:26', 'UCQ9027520035');
-insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Maëlys', 'Viel', 'Rimington', '2021-11-30 17:59:40', 'JEJ4283741484');
-insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Méthode', 'Northgraves', 'Morrison', '2021-07-27 10:04:59', 'OXG3409483508');
-insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Célia', 'Cuttles', 'Whitmell', '2024-03-22 14:47:06', 'LDH4332587833');
-insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Réjane', 'Yepiskov', 'Sprason', '2021-08-23 10:28:12', 'GYB8568320748');
-insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Ráo', 'Davidov', 'Scane', '2021-09-29 02:56:18', 'ZUQ6079259869');
-insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Réjane', 'Tenbrug', 'Younger', '2022-09-08 18:18:18', 'CKQ5513465302');
-insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Adélie', 'Markel', 'Drewery', '2021-06-07 14:30:18', 'ZTM5038790179');
-insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Almérinda', 'Dodswell', 'Maides', '2023-07-01 07:21:57', 'NWJ7411726514');
-insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Jú', 'McAne', 'Prayer', '2021-10-25 14:54:50', 'ZND6232124793');
-insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Séverine', 'Cross', 'Rossetti', '2023-08-27 05:14:56', 'KEJ5707638249');
-insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Méthode', 'Borit', 'Bagnall', '2023-04-03 15:54:20', 'DHX3352782142');
-insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Danièle', 'Masser', 'Loughead', '2024-04-01 15:01:09', 'ELB5470066766');
-insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Eloïse', 'Clemmen', 'O'' Gara', '2023-10-25 12:26:14', 'JAA6492556061');
-insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Sòng', 'Robbins', 'Briiginshaw', '2024-03-04 03:30:40', 'IHB6940573477');
-insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Marie-françoise', 'Perks', 'Velden', '2023-04-10 08:42:23', 'VKO9843734925');
-insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Håkan', 'Lawly', 'Papaminas', '2024-04-12 05:45:12', 'MZT0170319807');
-insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Valérie', 'Scandrett', 'Bernadzki', '2021-10-12 08:30:16', 'PGU6985813937');
-insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Mélanie', 'Sheards', 'Hayzer', '2022-07-20 21:23:31', 'XJS9164735931');
-insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Cunégonde', 'Drescher', 'Buddington', '2024-01-25 06:24:30', 'WHU6417768635');
-insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Irène', 'Macak', 'Brayford', '2022-11-17 11:26:21', 'PDA2633948471');
-insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Méghane', 'Mays', 'Stoker', '2023-04-04 22:08:07', 'NUD8143094364');
-insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Håkan', 'Kenforth', 'Laughlan', '2022-09-22 12:16:38', 'OQT1552682692');
-insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Edmée', 'Dinkin', 'Boulde', '2021-07-21 11:43:16', 'MQI9515041554');
-insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Séréna', 'Isson', 'Pavis', '2024-01-03 13:03:18', 'EQT9378198722');
-insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Lyséa', 'Stenson', 'Sergean', '2023-09-22 21:32:47', 'FBD0065481627');
-insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Mélissandre', 'Bassingden', 'Fouldes', '2022-06-11 14:21:07', 'DNH1846631678');
-insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Nuó', 'Fairfoot', 'Zoellner', '2021-11-29 02:45:41', 'LIS4328511554');
-insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Marie-ève', 'Weathers', 'Bengal', '2021-11-13 12:05:48', 'ONE6909512113');
-insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Gisèle', 'Willishire', 'Rodgers', '2022-11-17 11:11:12', 'NTT0814883540');
-insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Léone', 'Rochell', 'Billam', '2024-02-19 22:52:00', 'MUP8658224721');
-insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Görel', 'Wimlett', 'Scorer', '2021-11-28 21:43:01', 'GXW6667394501');
-insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Marylène', 'Inchley', 'Janicijevic', '2024-04-22 04:58:40', 'GPU4321582994');
-insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Görel', 'McGirr', 'Nuzzi', '2024-02-04 06:50:05', 'OEM2001360421');
-insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Erwéi', 'Hallan', 'Bulford', '2023-06-12 15:02:48', 'GBE6993733089');
-insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Lóng', 'Walklot', 'Bader', '2021-05-06 09:44:52', 'PHD5983585222');
-insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Nélie', 'Hintzer', 'Busher', '2022-07-28 04:28:19', 'SJQ2060003845');
-insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Cécilia', 'Bromige', 'Leaves', '2022-01-27 16:22:56', 'XJE4825308930');
-insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Almérinda', 'Reye', 'Dartnall', '2021-09-16 10:17:35', 'WYT5478245893');
-insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Maïwenn', 'Floris', 'Berens', '2023-07-20 09:05:41', 'XLF0496017215');
-insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Cinéma', 'Vasichev', 'Ciobutaru', '2021-09-02 02:15:59', 'OLN1025695039');
-insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Bénédicte', 'Burree', 'Stolworthy', '2021-09-23 07:03:34', 'GYM2233432666');
-insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Aí', 'Beverage', 'Jephson', '2024-05-23 20:05:19', 'BAH1158075778');
-insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Léonore', 'Dewis', 'Cleveland', '2023-06-10 22:38:58', 'EGG7992625272');
-insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Josée', 'Drance', 'Whitehead', '2021-06-01 17:27:50', 'KFC0996624917');
-insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Mélia', 'Adel', 'Wyrill', '2021-10-02 03:35:05', 'JRV4172212068');
-insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Märta', 'Adamthwaite', 'Caudwell', '2021-10-31 05:29:10', 'TWE8110105973');
-insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Gérald', 'Mellows', 'Hawley', '2023-07-08 13:28:35', 'BUD6049012065');
-insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Méng', 'Marquess', 'Votier', '2023-07-03 10:46:53', 'AUK8797013048');
-insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Dù', 'McNickle', 'Sigward', '2023-04-05 15:25:09', 'YRB8681148110');
-insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Célestine', 'Twallin', 'MacLaig', '2023-04-10 00:24:12', 'WED9368562722');
-insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Nadège', 'Bromfield', 'Stebbings', '2022-12-10 06:48:51', 'DXZ3551579636');
-insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Maïlys', 'Bednall', 'Hillam', '2023-06-26 06:18:55', 'XKF4429948593');
-insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Méghane', 'Vasyutochkin', 'Manueau', '2023-04-19 22:11:51', 'KJI5284285567');
-insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Mélinda', 'Edgehill', 'Doche', '2022-07-01 17:14:27', 'JXF9436622584');
-insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Maëlla', 'Rivitt', 'Gibbon', '2023-05-30 23:48:47', 'IDT4820515801');
-insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Sòng', 'Klimkiewich', 'Debney', '2022-06-28 11:48:20', 'FHG0652112144');
-insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Lài', 'Oake', 'Gavagan', '2021-07-07 18:36:52', 'KWK4032278337');
-insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Maïlis', 'Spataro', 'Madre', '2023-05-13 12:20:17', 'WGP3138063662');
-insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Göran', 'Gait', 'Skentelbery', '2024-01-25 11:36:57', 'XTD9846506156');
-insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Réjane', 'Haylands', 'Cullingford', '2024-03-09 23:55:34', 'MXX9381997009');
-insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Léana', 'Clardge', 'Bemrose', '2021-06-21 00:17:36', 'TXT2928886364');
-insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Tán', 'Coils', 'Tompkin', '2022-01-15 07:21:45', 'WCE6904055964');
-insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Béatrice', 'Croci', 'Theaker', '2021-11-07 23:16:33', 'YOJ4913962429');
-insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Rachèle', 'Aldersley', 'Iacovino', '2024-04-25 12:09:45', 'NZJ4235259429');
-insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Kuí', 'Dunkerton', 'Oldrey', '2021-10-02 08:43:04', 'UKM8935921095');
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Vérane', 'Saddleton', 'Cottingham', TO_DATE('2022-11-14 03:40:31', 'YYYY-MM-DD HH24:MI:SS'), 'XDR0158715630');
 insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Pélagie', 'Margery', 'Bullant', TO_DATE('2022-12-24 20:07:22', 'YYYY-MM-DD HH24:MI:SS'), 'IZE6672753998');
 insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Kévina', 'Mailes', 'Jilliss', TO_DATE('2021-12-24 12:49:59', 'YYYY-MM-DD HH24:MI:SS'), 'PDG3912214559');
