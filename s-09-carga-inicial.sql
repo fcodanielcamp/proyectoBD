@@ -505,3 +505,11 @@ insert into farmacia (centro_operaciones_id, rfc, direccion_web, gerente_id) val
 insert into farmacia (centro_operaciones_id, rfc, direccion_web, gerente_id) values (20, 'VTXE801485DO', 'https://8N5mL3Rgk0Zr05UfT3G4U0lsgYzw\.com', 7);
 insert into farmacia (centro_operaciones_id, rfc, direccion_web, gerente_id) values (22, 'BEWB396214P3', 'http://www\.usKws61HaZ7qSy2N8a7YxNFUYa3\.com', 9);
 insert into farmacia (centro_operaciones_id, rfc, direccion_web, gerente_id) values (24, 'RMYZ413940D5', 'http://www\.kr73KIcO4zagE77BZw4\.com', 3);
+
+Prompt Insertando datos iniciales en oficina
+insert into oficina (centro_operaciones_id, nombre, telefono, clave_presupuestal) values (5, 'Oficina Central', '5553131643', 'FL64Yv48q9HH46x');
+insert into oficina (centro_operaciones_id, nombre, telefono, clave_presupuestal) values (8, 'Gerencia de Operaciones', '5576411632', 'v54Pz4gWhK9N9M2');
+insert into oficina (centro_operaciones_id, nombre, telefono, clave_presupuestal) values (16, 'Departamento de Desarrollo', '5548668147', '044CustqkQ8cM6K');
+insert into oficina (centro_operaciones_id, nombre, telefono, clave_presupuestal) values (18, 'Servicios Clinicos', '5500523737', 'xd3I6Gd3I2vTnwG');
+insert into oficina (centro_operaciones_id, nombre, telefono, clave_presupuestal) values (21, 'Unidad de Logistica', '5517612345', 'c4N1NGiB02w9MIn');
+insert into oficina (centro_operaciones_id, nombre, telefono, clave_presupuestal) values (23, 'Control de Inventarios', '5533863233', '7ZxfM8Gqby4nqwQ');
