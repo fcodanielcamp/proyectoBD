@@ -252,3 +252,160 @@ insert into medicamento (medicamento_id, sustancia_activa, descripcion) values (
 insert into medicamento (medicamento_id, sustancia_activa, descripcion) values (medicamento_seq.nextval,'Prednisona', 'Corticoide utilizado para tratar diversas condiciones inflamatorias y autoinmunes.');
 insert into medicamento (medicamento_id, sustancia_activa, descripcion) values (medicamento_seq.nextval,'Metoclopramida', 'Agonista del receptor de dopamina utilizado para tratar las náuseas y los trastornos de la motilidad gastrointestinal.');
 insert into medicamento (medicamento_id, sustancia_activa, descripcion) values (medicamento_seq.nextval,'Acetaminofén', 'Analgésico y antipirético utilizado para tratar el dolor y la fiebre.');
+insert into medicamento (medicamento_id, sustancia_activa, descripcion) values (medicamento_seq.nextval,'Ibuprofeno', 'Antiinflamatorio no esteroideo utilizado para aliviar el dolor, la fiebre y la inflamación.');
+
+
+Prompt insertando datos iniciales en empleado
+insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Vérane', 'Saddleton', 'Cottingham', '2022-11-14 03:40:31', 'XDR0158715630');
+insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Pélagie', 'Margery', 'Bullant', '2022-12-24 20:07:22', 'IZE6672753998');
+insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Kévina', 'Mailes', 'Jilliss', '2021-12-24 12:49:59', 'PDG3912214559');
+insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Táng', 'Basilone', 'Copcott', '2024-01-30 01:06:26', 'UCQ9027520035');
+insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Maëlys', 'Viel', 'Rimington', '2021-11-30 17:59:40', 'JEJ4283741484');
+insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Méthode', 'Northgraves', 'Morrison', '2021-07-27 10:04:59', 'OXG3409483508');
+insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Célia', 'Cuttles', 'Whitmell', '2024-03-22 14:47:06', 'LDH4332587833');
+insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Réjane', 'Yepiskov', 'Sprason', '2021-08-23 10:28:12', 'GYB8568320748');
+insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Ráo', 'Davidov', 'Scane', '2021-09-29 02:56:18', 'ZUQ6079259869');
+insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Réjane', 'Tenbrug', 'Younger', '2022-09-08 18:18:18', 'CKQ5513465302');
+insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Adélie', 'Markel', 'Drewery', '2021-06-07 14:30:18', 'ZTM5038790179');
+insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Almérinda', 'Dodswell', 'Maides', '2023-07-01 07:21:57', 'NWJ7411726514');
+insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Jú', 'McAne', 'Prayer', '2021-10-25 14:54:50', 'ZND6232124793');
+insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Séverine', 'Cross', 'Rossetti', '2023-08-27 05:14:56', 'KEJ5707638249');
+insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Méthode', 'Borit', 'Bagnall', '2023-04-03 15:54:20', 'DHX3352782142');
+insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Danièle', 'Masser', 'Loughead', '2024-04-01 15:01:09', 'ELB5470066766');
+insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Eloïse', 'Clemmen', 'O'' Gara', '2023-10-25 12:26:14', 'JAA6492556061');
+insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Sòng', 'Robbins', 'Briiginshaw', '2024-03-04 03:30:40', 'IHB6940573477');
+insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Marie-françoise', 'Perks', 'Velden', '2023-04-10 08:42:23', 'VKO9843734925');
+insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Håkan', 'Lawly', 'Papaminas', '2024-04-12 05:45:12', 'MZT0170319807');
+insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Valérie', 'Scandrett', 'Bernadzki', '2021-10-12 08:30:16', 'PGU6985813937');
+insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Mélanie', 'Sheards', 'Hayzer', '2022-07-20 21:23:31', 'XJS9164735931');
+insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Cunégonde', 'Drescher', 'Buddington', '2024-01-25 06:24:30', 'WHU6417768635');
+insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Irène', 'Macak', 'Brayford', '2022-11-17 11:26:21', 'PDA2633948471');
+insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Méghane', 'Mays', 'Stoker', '2023-04-04 22:08:07', 'NUD8143094364');
+insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Håkan', 'Kenforth', 'Laughlan', '2022-09-22 12:16:38', 'OQT1552682692');
+insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Edmée', 'Dinkin', 'Boulde', '2021-07-21 11:43:16', 'MQI9515041554');
+insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Séréna', 'Isson', 'Pavis', '2024-01-03 13:03:18', 'EQT9378198722');
+insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Lyséa', 'Stenson', 'Sergean', '2023-09-22 21:32:47', 'FBD0065481627');
+insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Mélissandre', 'Bassingden', 'Fouldes', '2022-06-11 14:21:07', 'DNH1846631678');
+insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Nuó', 'Fairfoot', 'Zoellner', '2021-11-29 02:45:41', 'LIS4328511554');
+insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Marie-ève', 'Weathers', 'Bengal', '2021-11-13 12:05:48', 'ONE6909512113');
+insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Gisèle', 'Willishire', 'Rodgers', '2022-11-17 11:11:12', 'NTT0814883540');
+insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Léone', 'Rochell', 'Billam', '2024-02-19 22:52:00', 'MUP8658224721');
+insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Görel', 'Wimlett', 'Scorer', '2021-11-28 21:43:01', 'GXW6667394501');
+insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Marylène', 'Inchley', 'Janicijevic', '2024-04-22 04:58:40', 'GPU4321582994');
+insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Görel', 'McGirr', 'Nuzzi', '2024-02-04 06:50:05', 'OEM2001360421');
+insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Erwéi', 'Hallan', 'Bulford', '2023-06-12 15:02:48', 'GBE6993733089');
+insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Lóng', 'Walklot', 'Bader', '2021-05-06 09:44:52', 'PHD5983585222');
+insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Nélie', 'Hintzer', 'Busher', '2022-07-28 04:28:19', 'SJQ2060003845');
+insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Cécilia', 'Bromige', 'Leaves', '2022-01-27 16:22:56', 'XJE4825308930');
+insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Almérinda', 'Reye', 'Dartnall', '2021-09-16 10:17:35', 'WYT5478245893');
+insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Maïwenn', 'Floris', 'Berens', '2023-07-20 09:05:41', 'XLF0496017215');
+insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Cinéma', 'Vasichev', 'Ciobutaru', '2021-09-02 02:15:59', 'OLN1025695039');
+insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Bénédicte', 'Burree', 'Stolworthy', '2021-09-23 07:03:34', 'GYM2233432666');
+insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Aí', 'Beverage', 'Jephson', '2024-05-23 20:05:19', 'BAH1158075778');
+insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Léonore', 'Dewis', 'Cleveland', '2023-06-10 22:38:58', 'EGG7992625272');
+insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Josée', 'Drance', 'Whitehead', '2021-06-01 17:27:50', 'KFC0996624917');
+insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Mélia', 'Adel', 'Wyrill', '2021-10-02 03:35:05', 'JRV4172212068');
+insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Märta', 'Adamthwaite', 'Caudwell', '2021-10-31 05:29:10', 'TWE8110105973');
+insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Gérald', 'Mellows', 'Hawley', '2023-07-08 13:28:35', 'BUD6049012065');
+insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Méng', 'Marquess', 'Votier', '2023-07-03 10:46:53', 'AUK8797013048');
+insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Dù', 'McNickle', 'Sigward', '2023-04-05 15:25:09', 'YRB8681148110');
+insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Célestine', 'Twallin', 'MacLaig', '2023-04-10 00:24:12', 'WED9368562722');
+insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Nadège', 'Bromfield', 'Stebbings', '2022-12-10 06:48:51', 'DXZ3551579636');
+insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Maïlys', 'Bednall', 'Hillam', '2023-06-26 06:18:55', 'XKF4429948593');
+insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Méghane', 'Vasyutochkin', 'Manueau', '2023-04-19 22:11:51', 'KJI5284285567');
+insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Mélinda', 'Edgehill', 'Doche', '2022-07-01 17:14:27', 'JXF9436622584');
+insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Maëlla', 'Rivitt', 'Gibbon', '2023-05-30 23:48:47', 'IDT4820515801');
+insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Sòng', 'Klimkiewich', 'Debney', '2022-06-28 11:48:20', 'FHG0652112144');
+insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Lài', 'Oake', 'Gavagan', '2021-07-07 18:36:52', 'KWK4032278337');
+insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Maïlis', 'Spataro', 'Madre', '2023-05-13 12:20:17', 'WGP3138063662');
+insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Göran', 'Gait', 'Skentelbery', '2024-01-25 11:36:57', 'XTD9846506156');
+insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Réjane', 'Haylands', 'Cullingford', '2024-03-09 23:55:34', 'MXX9381997009');
+insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Léana', 'Clardge', 'Bemrose', '2021-06-21 00:17:36', 'TXT2928886364');
+insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Tán', 'Coils', 'Tompkin', '2022-01-15 07:21:45', 'WCE6904055964');
+insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Béatrice', 'Croci', 'Theaker', '2021-11-07 23:16:33', 'YOJ4913962429');
+insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Rachèle', 'Aldersley', 'Iacovino', '2024-04-25 12:09:45', 'NZJ4235259429');
+insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Kuí', 'Dunkerton', 'Oldrey', '2021-10-02 08:43:04', 'UKM8935921095');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Vérane', 'Saddleton', 'Cottingham', TO_DATE('2022-11-14 03:40:31', 'YYYY-MM-DD HH24:MI:SS'), 'XDR0158715630');
+insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Pélagie', 'Margery', 'Bullant', TO_DATE('2022-12-24 20:07:22', 'YYYY-MM-DD HH24:MI:SS'), 'IZE6672753998');
+insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Kévina', 'Mailes', 'Jilliss', TO_DATE('2021-12-24 12:49:59', 'YYYY-MM-DD HH24:MI:SS'), 'PDG3912214559');
+insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Táng', 'Basilone', 'Copcott', TO_DATE('2024-01-30 01:06:26', 'YYYY-MM-DD HH24:MI:SS'), 'UCQ9027520035');
+insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Maëlys', 'Viel', 'Rimington', TO_DATE('2021-11-30 17:59:40', 'YYYY-MM-DD HH24:MI:SS'), 'JEJ4283741484');
+insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Méthode', 'Northgraves', 'Morrison', TO_DATE('2021-07-27 10:04:59', 'YYYY-MM-DD HH24:MI:SS'), 'OXG3409483508');
+insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Célia', 'Cuttles', 'Whitmell', TO_DATE('2024-03-22 14:47:06', 'YYYY-MM-DD HH24:MI:SS'), 'LDH4332587833');
+insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Réjane', 'Yepiskov', 'Sprason', TO_DATE('2021-08-23 10:28:12', 'YYYY-MM-DD HH24:MI:SS'), 'GYB8568320748');
+insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Ráo', 'Davidov', 'Scane', TO_DATE('2021-09-29 02:56:18', 'YYYY-MM-DD HH24:MI:SS'), 'ZUQ6079259869');
+insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Réjane', 'Tenbrug', 'Younger', TO_DATE('2022-09-08 18:18:18', 'YYYY-MM-DD HH24:MI:SS'), 'CKQ5513465302');
+insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Adélie', 'Markel', 'Drewery', TO_DATE('2021-06-07 14:30:18', 'YYYY-MM-DD HH24:MI:SS'), 'ZTM5038790179');
+insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Almérinda', 'Dodswell', 'Maides', TO_DATE('2023-07-01 07:21:57', 'YYYY-MM-DD HH24:MI:SS'), 'NWJ7411726514');
+insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Jú', 'McAne', 'Prayer', TO_DATE('2021-10-25 14:54:50', 'YYYY-MM-DD HH24:MI:SS'),'ZND6232124793');
+insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Séverine', 'Cross', 'Rossetti', TO_DATE('2023-08-27 05:14:56', 'YYYY-MM-DD HH24:MI:SS'), 'KEJ5707638249');
+insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Méthode', 'Borit', 'Bagnall', TO_DATE('2023-04-03 15:54:20', 'YYYY-MM-DD HH24:MI:SS'), 'DHX3352782142');
+insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Danièle', 'Masser', 'Loughead', TO_DATE('2024-04-01 15:01:09', 'YYYY-MM-DD HH24:MI:SS'), 'ELB5470066766');
+insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Eloïse', 'Clemmen', 'O'' Gara', TO_DATE('2023-10-25 12:26:14', 'YYYY-MM-DD HH24:MI:SS'), 'JAA6492556061');
+insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Sòng', 'Robbins', 'Briiginshaw', TO_DATE('2024-03-04 03:30:40', 'YYYY-MM-DD HH24:MI:SS'), 'IHB6940573477');
+insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Marie-françoise', 'Perks', 'Velden', TO_DATE('2023-04-10 08:42:23', 'YYYY-MM-DD HH24:MI:SS'), 'VKO9843734925');
+insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Håkan', 'Lawly', 'Papaminas', TO_DATE('2024-04-12 05:45:12', 'YYYY-MM-DD HH24:MI:SS'), 'MZT0170319807');
+insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Valérie', 'Scandrett', 'Bernadzki', TO_DATE('2021-10-12 08:30:16', 'YYYY-MM-DD HH24:MI:SS'), 'PGU6985813937');
+insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Mélanie', 'Sheards', 'Hayzer', TO_DATE('2022-07-20 21:23:31', 'YYYY-MM-DD HH24:MI:SS'), 'XJS9164735931');
+insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Cunégonde', 'Drescher', 'Buddington', TO_DATE('2024-01-25 06:24:30', 'YYYY-MM-DD HH24:MI:SS'), 'WHU6417768635');
+insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Irène', 'Macak', 'Brayford', TO_DATE('2022-11-17 11:26:21', 'YYYY-MM-DD HH24:MI:SS'), 'PDA2633948471');
+insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Méghane', 'Mays', 'Stoker', TO_DATE('2023-04-04 22:08:07', 'YYYY-MM-DD HH24:MI:SS'), 'NUD8143094364');
+insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Håkan', 'Kenforth', 'Laughlan', TO_DATE('2022-09-22 12:16:38', 'YYYY-MM-DD HH24:MI:SS'), 'OQT1552682692');
+insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Edmée', 'Dinkin', 'Boulde', TO_DATE('2021-07-21 11:43:16', 'YYYY-MM-DD HH24:MI:SS'), 'MQI9515041554');
+insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Séréna', 'Isson', 'Pavis', TO_DATE('2024-01-03 13:03:18', 'YYYY-MM-DD HH24:MI:SS'), 'EQT9378198722');
+insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Lyséa', 'Stenson', 'Sergean', TO_DATE('2023-09-22 21:32:47', 'YYYY-MM-DD HH24:MI:SS'), 'FBD0065481627');
+insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Mélissandre', 'Bassingden', 'Fouldes', TO_DATE('2022-06-11 14:21:07', 'YYYY-MM-DD HH24:MI:SS'), 'DNH1846631678');
+insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Nuó', 'Fairfoot', 'Zoellner', TO_DATE('2021-11-29 02:45:41', 'YYYY-MM-DD HH24:MI:SS'), 'LIS4328511554');
+insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Marie-ève', 'Weathers', 'Bengal', TO_DATE('2021-11-13 12:05:48', 'YYYY-MM-DD HH24:MI:SS'), 'ONE6909512113');
+insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Gisèle', 'Willishire', 'Rodgers', TO_DATE('2022-11-17 11:11:12', 'YYYY-MM-DD HH24:MI:SS'), 'NTT0814883540');
+insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Léone', 'Rochell', 'Billam', TO_DATE('2024-02-19 22:52:00', 'YYYY-MM-DD HH24:MI:SS'), 'MUP8658224721');
+insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Görel', 'Wimlett', 'Scorer', TO_DATE('2021-11-28 21:43:01', 'YYYY-MM-DD HH24:MI:SS'), 'GXW6667394501');
+insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Marylène', 'Inchley', 'Janicijevic', TO_DATE('2024-04-22 04:58:40', 'YYYY-MM-DD HH24:MI:SS'), 'GPU4321582994');
+insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Görel', 'McGirr', 'Nuzzi', TO_DATE('2024-02-04 06:50:05', 'YYYY-MM-DD HH24:MI:SS'), 'OEM2001360421');
+insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Erwéi', 'Hallan', 'Bulford', TO_DATE('2023-06-12 15:02:48', 'YYYY-MM-DD HH24:MI:SS'), 'GBE6993733089');
+insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Lóng', 'Walklot', 'Bader', TO_DATE('2021-05-06 09:44:52', 'YYYY-MM-DD HH24:MI:SS'), 'PHD5983585222');
+insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Nélie', 'Hintzer', 'Busher', TO_DATE('2022-07-28 04:28:19', 'YYYY-MM-DD HH24:MI:SS'), 'SJQ2060003845');
+insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Cécilia', 'Bromige', 'Leaves', TO_DATE('2022-01-27 16:22:56', 'YYYY-MM-DD HH24:MI:SS'), 'XJE4825308930');
+insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Almérinda', 'Reye', 'Dartnall', TO_DATE('2021-09-16 10:17:35', 'YYYY-MM-DD HH24:MI:SS'), 'WYT5478245893');
+insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Maïwenn', 'Floris', 'Berens', TO_DATE('2023-07-20 09:05:41', 'YYYY-MM-DD HH24:MI:SS'), 'XLF0496017215');
+insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Cinéma', 'Vasichev', 'Ciobutaru', TO_DATE('2021-09-02 02:15:59', 'YYYY-MM-DD HH24:MI:SS'), 'OLN1025695039');
+insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Bénédicte', 'Burree', 'Stolworthy', TO_DATE('2021-09-23 07:03:34', 'YYYY-MM-DD HH24:MI:SS'), 'GYM2233432666');
+insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Aí', 'Beverage', 'Jephson', TO_DATE('2024-05-23 20:05:19', 'YYYY-MM-DD HH24:MI:SS'), 'BAH1158075778');
+insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Léonore', 'Dewis', 'Cleveland', TO_DATE('2023-06-10 22:38:58', 'YYYY-MM-DD HH24:MI:SS'), 'EGG7992625272');
+insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Josée', 'Drance', 'Whitehead', TO_DATE('2021-06-01 17:27:50', 'YYYY-MM-DD HH24:MI:SS'), 'KFC0996624917');
+insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Mélia', 'Adel', 'Wyrill', TO_DATE('2021-10-02 03:35:05', 'YYYY-MM-DD HH24:MI:SS'), 'JRV4172212068');
+insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Märta', 'Adamthwaite', 'Caudwell', TO_DATE('2021-10-31 05:29:10', 'YYYY-MM-DD HH24:MI:SS'), 'TWE8110105973');
+insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Gérald', 'Mellows', 'Hawley', TO_DATE('2023-07-08 13:28:35', 'YYYY-MM-DD HH24:MI:SS'), 'BUD6049012065');
+insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Méng', 'Marquess', 'Votier', TO_DATE('2023-07-03 10:46:53', 'YYYY-MM-DD HH24:MI:SS'), 'AUK8797013048');
+insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Dù', 'McNickle', 'Sigward', TO_DATE('2023-04-05 15:25:09', 'YYYY-MM-DD HH24:MI:SS'), 'YRB8681148110');
+insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Célestine', 'Twallin', 'MacLaig', TO_DATE('2023-04-10 00:24:12', 'YYYY-MM-DD HH24:MI:SS'), 'WED9368562722');
+insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Nadège', 'Bromfield', 'Stebbings', TO_DATE('2022-12-10 06:48:51', 'YYYY-MM-DD HH24:MI:SS'), 'DXZ3551579636');
+insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Maïlys', 'Bednall', 'Hillam', TO_DATE('2023-06-26 06:18:55', 'YYYY-MM-DD HH24:MI:SS'), 'XKF4429948593');
+insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Méghane', 'Vasyutochkin', 'Manueau', TO_DATE('2023-04-19 22:11:51', 'YYYY-MM-DD HH24:MI:SS'), 'KJI5284285567');
+insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Mélinda', 'Edgehill', 'Doche', TO_DATE('2022-07-01 17:14:27', 'YYYY-MM-DD HH24:MI:SS'), 'JXF9436622584');
+insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Maëlla', 'Rivitt', 'Gibbon', TO_DATE('2023-05-30 23:48:47', 'YYYY-MM-DD HH24:MI:SS'), 'IDT4820515801');
+insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Sòng', 'Klimkiewich', 'Debney', TO_DATE('2022-06-28 11:48:20', 'YYYY-MM-DD HH24:MI:SS'), 'FHG0652112144');
+insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Lài', 'Oake', 'Gavagan', TO_DATE('2021-07-07 18:36:52', 'YYYY-MM-DD HH24:MI:SS'), 'KWK4032278337');
+insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Maïlis', 'Spataro', 'Madre', TO_DATE('2023-05-13 12:20:17', 'YYYY-MM-DD HH24:MI:SS'), 'WGP3138063662');
+insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Göran', 'Gait', 'Skentelbery', TO_DATE('2024-01-25 11:36:57', 'YYYY-MM-DD HH24:MI:SS'), 'XTD9846506156');
+insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Réjane', 'Haylands', 'Cullingford', TO_DATE('2024-03-09 23:55:34', 'YYYY-MM-DD HH24:MI:SS'), 'MXX9381997009');
+insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Léana', 'Clardge', 'Bemrose', TO_DATE('2021-06-21 00:17:36', 'YYYY-MM-DD HH24:MI:SS'), 'TXT2928886364');
+insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Tán', 'Coils', 'Tompkin', TO_DATE('2022-01-15 07:21:45', 'YYYY-MM-DD HH24:MI:SS'), 'WCE6904055964');
+insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Béatrice', 'Croci', 'Theaker', TO_DATE('2021-11-07 23:16:33', 'YYYY-MM-DD HH24:MI:SS'), 'YOJ4913962429');
+insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Rachèle', 'Aldersley', 'Iacovino', TO_DATE('2024-04-25 12:09:45', 'YYYY-MM-DD HH24:MI:SS'), 'NZJ4235259429');
+insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Kuí', 'Dunkerton', 'Oldrey', TO_DATE('2021-10-02 08:43:04', 'YYYY-MM-DD HH24:MI:SS'), 'UKM8935921095');
+insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Adélie', 'Shorrocks', 'Wimlet', TO_DATE('2022-07-23 17:31:29', 'YYYY-MM-DD HH24:MI:SS'), 'ORZ6608213060');
