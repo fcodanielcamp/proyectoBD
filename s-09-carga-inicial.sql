@@ -330,6 +330,54 @@ insert into nombre_medicamento (nombre_medicamento_id, nombre, medicamento_id) v
 insert into nombre_medicamento (nombre_medicamento_id, nombre, medicamento_id) values (nombre_medicamento_seq.nextval, 'Aleve', 17);
 
 
+Prompt insertando datos iniciales en presentacion_medicamento
+insert into presentacion_medicamento (presentacion_medicamento_id, cantidad, medicamento_id) values (presentacion_medicamento_seq.nextval, 418, 12);
+insert into presentacion_medicamento (presentacion_medicamento_id, cantidad, medicamento_id) values (presentacion_medicamento_seq.nextval, 201, 21);
+insert into presentacion_medicamento (presentacion_medicamento_id, cantidad, medicamento_id) values (presentacion_medicamento_seq.nextval, 395, 20);
+insert into presentacion_medicamento (presentacion_medicamento_id, cantidad, medicamento_id) values (presentacion_medicamento_seq.nextval, 99, 38);
+insert into presentacion_medicamento (presentacion_medicamento_id, cantidad, medicamento_id) values (presentacion_medicamento_seq.nextval, 53, 17);
+insert into presentacion_medicamento (presentacion_medicamento_id, cantidad, medicamento_id) values (presentacion_medicamento_seq.nextval, 491, 9);
+insert into presentacion_medicamento (presentacion_medicamento_id, cantidad, medicamento_id) values (presentacion_medicamento_seq.nextval, 460, 35);
+insert into presentacion_medicamento (presentacion_medicamento_id, cantidad, medicamento_id) values (presentacion_medicamento_seq.nextval, 381, 10);
+insert into presentacion_medicamento (presentacion_medicamento_id, cantidad, medicamento_id) values (presentacion_medicamento_seq.nextval, 471, 3);
+insert into presentacion_medicamento (presentacion_medicamento_id, cantidad, medicamento_id) values (presentacion_medicamento_seq.nextval, 161, 37);
+insert into presentacion_medicamento (presentacion_medicamento_id, cantidad, medicamento_id) values (presentacion_medicamento_seq.nextval, 170, 17);
+insert into presentacion_medicamento (presentacion_medicamento_id, cantidad, medicamento_id) values (presentacion_medicamento_seq.nextval, 271, 33);
+insert into presentacion_medicamento (presentacion_medicamento_id, cantidad, medicamento_id) values (presentacion_medicamento_seq.nextval, 415, 17);
+insert into presentacion_medicamento (presentacion_medicamento_id, cantidad, medicamento_id) values (presentacion_medicamento_seq.nextval, 263, 5);
+insert into presentacion_medicamento (presentacion_medicamento_id, cantidad, medicamento_id) values (presentacion_medicamento_seq.nextval, 319, 3);
+insert into presentacion_medicamento (presentacion_medicamento_id, cantidad, medicamento_id) values (presentacion_medicamento_seq.nextval, 26, 11);
+insert into presentacion_medicamento (presentacion_medicamento_id, cantidad, medicamento_id) values (presentacion_medicamento_seq.nextval, 179, 2);
+insert into presentacion_medicamento (presentacion_medicamento_id, cantidad, medicamento_id) values (presentacion_medicamento_seq.nextval, 246, 28);
+insert into presentacion_medicamento (presentacion_medicamento_id, cantidad, medicamento_id) values (presentacion_medicamento_seq.nextval, 81, 36);
+insert into presentacion_medicamento (presentacion_medicamento_id, cantidad, medicamento_id) values (presentacion_medicamento_seq.nextval, 170, 1);
+insert into presentacion_medicamento (presentacion_medicamento_id, cantidad, medicamento_id) values (presentacion_medicamento_seq.nextval, 167, 10);
+insert into presentacion_medicamento (presentacion_medicamento_id, cantidad, medicamento_id) values (presentacion_medicamento_seq.nextval, 116, 2);
+insert into presentacion_medicamento (presentacion_medicamento_id, cantidad, medicamento_id) values (presentacion_medicamento_seq.nextval, 9, 17);
+insert into presentacion_medicamento (presentacion_medicamento_id, cantidad, medicamento_id) values (presentacion_medicamento_seq.nextval, 450, 11);
+insert into presentacion_medicamento (presentacion_medicamento_id, cantidad, medicamento_id) values (presentacion_medicamento_seq.nextval, 199, 39);
+insert into presentacion_medicamento (presentacion_medicamento_id, cantidad, medicamento_id) values (presentacion_medicamento_seq.nextval, 61, 12);
+insert into presentacion_medicamento (presentacion_medicamento_id, cantidad, medicamento_id) values (presentacion_medicamento_seq.nextval, 120, 17);
+insert into presentacion_medicamento (presentacion_medicamento_id, cantidad, medicamento_id) values (presentacion_medicamento_seq.nextval, 229, 39);
+insert into presentacion_medicamento (presentacion_medicamento_id, cantidad, medicamento_id) values (presentacion_medicamento_seq.nextval, 300, 16);
+insert into presentacion_medicamento (presentacion_medicamento_id, cantidad, medicamento_id) values (presentacion_medicamento_seq.nextval, 462, 19);
+insert into presentacion_medicamento (presentacion_medicamento_id, cantidad, medicamento_id) values (presentacion_medicamento_seq.nextval, 73, 18);
+insert into presentacion_medicamento (presentacion_medicamento_id, cantidad, medicamento_id) values (presentacion_medicamento_seq.nextval, 459, 37);
+insert into presentacion_medicamento (presentacion_medicamento_id, cantidad, medicamento_id) values (presentacion_medicamento_seq.nextval, 71, 32);
+insert into presentacion_medicamento (presentacion_medicamento_id, cantidad, medicamento_id) values (presentacion_medicamento_seq.nextval, 35, 22);
+insert into presentacion_medicamento (presentacion_medicamento_id, cantidad, medicamento_id) values (presentacion_medicamento_seq.nextval, 39, 34);
+insert into presentacion_medicamento (presentacion_medicamento_id, cantidad, medicamento_id) values (presentacion_medicamento_seq.nextval, 357, 7);
+insert into presentacion_medicamento (presentacion_medicamento_id, cantidad, medicamento_id) values (presentacion_medicamento_seq.nextval, 321, 27);
+insert into presentacion_medicamento (presentacion_medicamento_id, cantidad, medicamento_id) values (presentacion_medicamento_seq.nextval, 303, 35);
+insert into presentacion_medicamento (presentacion_medicamento_id, cantidad, medicamento_id) values (presentacion_medicamento_seq.nextval, 408, 26);
+insert into presentacion_medicamento (presentacion_medicamento_id, cantidad, medicamento_id) values (presentacion_medicamento_seq.nextval, 150, 22);
+insert into presentacion_medicamento (presentacion_medicamento_id, cantidad, medicamento_id) values (presentacion_medicamento_seq.nextval, 357, 2);
+insert into presentacion_medicamento (presentacion_medicamento_id, cantidad, medicamento_id) values (presentacion_medicamento_seq.nextval, 434, 33);
+insert into presentacion_medicamento (presentacion_medicamento_id, cantidad, medicamento_id) values (presentacion_medicamento_seq.nextval, 5, 2);
+insert into presentacion_medicamento (presentacion_medicamento_id, cantidad, medicamento_id) values (presentacion_medicamento_seq.nextval, 102, 9);
+insert into presentacion_medicamento (presentacion_medicamento_id, cantidad, medicamento_id) values (presentacion_medicamento_seq.nextval, 162, 39);
+
+
 Prompt insertando datos iniciales en empleado
 insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Vérane', 'Saddleton', 'Cottingham', TO_DATE('2022-11-14 03:40:31', 'YYYY-MM-DD HH24:MI:SS'), 'XDR0158715630');
 insert into empleado (empleado_id, nombre, apellido_paterno, apellido_materno, fecha_ingreso, rfc) values (empleado_seq.nextval, 'Pélagie', 'Margery', 'Bullant', TO_DATE('2022-12-24 20:07:22', 'YYYY-MM-DD HH24:MI:SS'), 'IZE6672753998');
