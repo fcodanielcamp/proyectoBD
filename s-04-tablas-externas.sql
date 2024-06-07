@@ -47,7 +47,7 @@ ORGANIZATION EXTERNAL (
 REJECT LIMIT UNLIMITED;
 
 -- Cambiar permisos del directorio
-!chmod 777 /unam-bd/proyecto/proyectoBD/tabla-externa
+!chmod 777 /unam-bd/proyectoBD/tabla-externa
 
 -- Seleccionar datos de la tabla externa
 SELECT * FROM entradas_medicamento;
