@@ -44,5 +44,13 @@ create or replace view v_operacion(
   from operacion o
   natural join operacion_medicamento om
   natural join presentacion_medicamento pm;
+
+--Vista que permite a los empleados visualizar información importante de los pedidos en una tabla concentrada.
+create or replace view v_pedido(
+    pedido_id,folio,fecha_emision,importe,cliente_id,presentacion_medicamento_id,farmacia_id,unidades
+) as
+  select pedido_id,p.folio,p.fecha_emision,p.importe,p.cliente_id,pm.presentacion_medicamento_id,pm.farmacia_id,pm.unidades
+  from pedido p
+  natural join pedido_medicamento pm;
 prompt Listo!
 disconnect
