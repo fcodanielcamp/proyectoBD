@@ -1,1 +1,1 @@
-Falta corregir el modelo relacional, ya que el nombre del id de la entidad PEDIDO_MEDICAMENTO es incorrecto.
+Falta corregir el modelo relacional, la relación entre nombre_medicamento y presentacion_medicamento es incorrecta en su notación.
