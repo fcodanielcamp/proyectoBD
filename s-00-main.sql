@@ -7,4 +7,6 @@
 @s-07-sinonimos.sql
 @s-08-vistas.sql
 @s-09-carga-inicial.sql
-@s-10-consultas.sql
+--@s-10-consultas.sql
+@s-11-tr-pedido_medicamento_unidades.sql
+@s-12-tr-pedido_medicamento_unidades_prueba.sql
