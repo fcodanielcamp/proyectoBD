@@ -745,5 +745,15 @@ insert into operacion_medicamento (operacion_medicamento_id, unidades, operacion
 insert into operacion_medicamento (operacion_medicamento_id, unidades, operacion_id, presentacion_medicamento_id) values (operacion_medicamento_seq.nextval, 250, 38, 18);
 insert into operacion_medicamento (operacion_medicamento_id, unidades, operacion_id, presentacion_medicamento_id) values (operacion_medicamento_seq.nextval, 200, 39, 19);
 insert into operacion_medicamento (operacion_medicamento_id, unidades, operacion_id, presentacion_medicamento_id) values (operacion_medicamento_seq.nextval, 200, 40, 20);
+insert into operacion_medicamento (operacion_medicamento_id, unidades, operacion_id, presentacion_medicamento_id) values (operacion_medicamento_seq.nextval, 10, 41, 2);
+insert into operacion_medicamento (operacion_medicamento_id, unidades, operacion_id, presentacion_medicamento_id) values (operacion_medicamento_seq.nextval, 10, 42, 21);
+insert into operacion_medicamento (operacion_medicamento_id, unidades, operacion_id, presentacion_medicamento_id) values (operacion_medicamento_seq.nextval, 30, 43, 5);
+insert into operacion_medicamento (operacion_medicamento_id, unidades, operacion_id, presentacion_medicamento_id) values (operacion_medicamento_seq.nextval, 25, 44, 1);
+insert into operacion_medicamento (operacion_medicamento_id, unidades, operacion_id, presentacion_medicamento_id) values (operacion_medicamento_seq.nextval, 10, 45, 16);
+insert into operacion_medicamento (operacion_medicamento_id, unidades, operacion_id, presentacion_medicamento_id) values (operacion_medicamento_seq.nextval, 10, 46, 24);
+insert into operacion_medicamento (operacion_medicamento_id, unidades, operacion_id, presentacion_medicamento_id) values (operacion_medicamento_seq.nextval, 25, 47, 28);
+insert into operacion_medicamento (operacion_medicamento_id, unidades, operacion_id, presentacion_medicamento_id) values (operacion_medicamento_seq.nextval, 25, 48, 11);
+insert into operacion_medicamento (operacion_medicamento_id, unidades, operacion_id, presentacion_medicamento_id) values (operacion_medicamento_seq.nextval, 10, 49, 12);
+insert into operacion_medicamento (operacion_medicamento_id, unidades, operacion_id, presentacion_medicamento_id) values (operacion_medicamento_seq.nextval, 25, 50, 14);
 
 commit;
