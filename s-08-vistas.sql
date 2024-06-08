@@ -25,7 +25,8 @@ create or replace view v_centro_operaciones(
   left outer join almacen a
   on co.centro_operaciones_id=a.centro_operaciones_id
   left outer join farmacia f
-  on co.centro_operaciones_id=f.centro_operaciones_id;
+  on co.centro_operaciones_id=f.centro_operaciones_id
+  order by co.centro_operaciones_id;
 
 --Vista que permite a los empleados visualizar toda la información del catálogo en una tabla.
 create or replace view v_medicamento(
@@ -34,7 +35,8 @@ create or replace view v_medicamento(
   select medicamento_id,nombre_medicamento_id,m.sustancia_activa,nm.nombre,pm.cantidad
   from medicamento m
   natural join nombre_medicamento nm
-  natural join presentacion_medicamento pm;
+  natural join presentacion_medicamento pm
+  order by medicamento_id,nombre_medicamento_id;
 
 --Vista que permite a los empleados visualizar información importante de las operaciones internas en una tabla.
 create or replace view v_operacion(
@@ -43,7 +45,8 @@ create or replace view v_operacion(
   select operacion_id,o.almacen_id,o.fecha,o.tipo,om.unidades,pm.nombre_medicamento_id
   from operacion o
   natural join operacion_medicamento om
-  natural join presentacion_medicamento pm;
+  natural join presentacion_medicamento pm
+  order by operacion_id;
 
 --Vista que permite a los empleados visualizar información importante de los pedidos en una tabla concentrada.
 create or replace view v_pedido(
@@ -51,6 +54,7 @@ create or replace view v_pedido(
 ) as
   select pedido_id,p.folio,p.fecha_emision,p.importe,p.cliente_id,pm.presentacion_medicamento_id,pm.farmacia_id,pm.unidades
   from pedido p
-  natural join pedido_medicamento pm;
+  natural join pedido_medicamento pm
+  order by pedido_id;
 prompt Listo!
 disconnect

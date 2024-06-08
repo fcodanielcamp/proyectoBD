@@ -910,4 +910,18 @@ insert into pedido_medicamento (pedido_medicamento_id, unidades, pedido_id, farm
 insert into pedido_medicamento (pedido_medicamento_id, unidades, pedido_id, farmacia_id, presentacion_medicamento_id) values (pedido_medicamento_seq.nextval, 3, 2, 22, 1);
 insert into pedido_medicamento (pedido_medicamento_id, unidades, pedido_id, farmacia_id, presentacion_medicamento_id) values (pedido_medicamento_seq.nextval, 3, 3, 24, 70);
 
+Prompt Insertando datos iniciales en historico_estado
+insert into historico_estado (historico_estado_id, fecha, estado_pedido_id, pedido_id) values (historico_estado_seq.nextval, TO_DATE('2024-06-04 15:59:42','YYYY-MM-DD HH24:MI:SS'), 1, 1);
+insert into historico_estado (historico_estado_id, fecha, estado_pedido_id, pedido_id) values (historico_estado_seq.nextval, TO_DATE('2024-06-05 20:46:38','YYYY-MM-DD HH24:MI:SS'), 5, 1);
+insert into historico_estado (historico_estado_id, fecha, estado_pedido_id, pedido_id) values (historico_estado_seq.nextval, TO_DATE('2024-06-04 05:20:54','YYYY-MM-DD HH24:MI:SS'), 1, 2);
+insert into historico_estado (historico_estado_id, fecha, estado_pedido_id, pedido_id) values (historico_estado_seq.nextval, TO_DATE('2024-06-05 07:30:00','YYYY-MM-DD HH24:MI:SS'), 2, 2);
+insert into historico_estado (historico_estado_id, fecha, estado_pedido_id, pedido_id) values (historico_estado_seq.nextval, TO_DATE('2024-06-05 07:45:00','YYYY-MM-DD HH24:MI:SS'), 3, 2);
+insert into historico_estado (historico_estado_id, fecha, estado_pedido_id, pedido_id) values (historico_estado_seq.nextval, TO_DATE('2024-06-04 01:08:16','YYYY-MM-DD HH24:MI:SS'), 1, 3);
+insert into historico_estado (historico_estado_id, fecha, estado_pedido_id, pedido_id) values (historico_estado_seq.nextval, TO_DATE('2024-06-05 16:09:31','YYYY-MM-DD HH24:MI:SS'), 2, 3);
+insert into historico_estado (historico_estado_id, fecha, estado_pedido_id, pedido_id) values (historico_estado_seq.nextval, TO_DATE('2024-06-05 16:24:31','YYYY-MM-DD HH24:MI:SS'), 3, 3);
+insert into historico_estado (historico_estado_id, fecha, estado_pedido_id, pedido_id) values (historico_estado_seq.nextval, TO_DATE('2024-06-04 17:04:23','YYYY-MM-DD HH24:MI:SS'), 1, 4);
+insert into historico_estado (historico_estado_id, fecha, estado_pedido_id, pedido_id) values (historico_estado_seq.nextval, TO_DATE('2024-06-05 06:21:47','YYYY-MM-DD HH24:MI:SS'), 2, 4);
+insert into historico_estado (historico_estado_id, fecha, estado_pedido_id, pedido_id) values (historico_estado_seq.nextval, TO_DATE('2024-06-04 02:28:09','YYYY-MM-DD HH24:MI:SS'), 1, 5);
+insert into historico_estado (historico_estado_id, fecha, estado_pedido_id, pedido_id) values (historico_estado_seq.nextval, TO_DATE('2024-06-05 20:08:19','YYYY-MM-DD HH24:MI:SS'), 5, 5);
+
 commit;
