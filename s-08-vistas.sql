@@ -38,9 +38,9 @@ create or replace view v_medicamento(
 
 --Vista que permite a los empleados visualizar información importante de las operaciones internas en una tabla.
 create or replace view v_operacion(
-    operacion_id,fecha,tipo,unidades,medicamento_id
+    operacion_id,almacen_id,fecha,tipo,unidades,medicamento_id
 ) as
-  select operacion_id,o.fecha,o.tipo,om.unidades,pm.nombre_medicamento_id
+  select operacion_id,o.almacen_id,o.fecha,o.tipo,om.unidades,pm.nombre_medicamento_id
   from operacion o
   natural join operacion_medicamento om
   natural join presentacion_medicamento pm;
