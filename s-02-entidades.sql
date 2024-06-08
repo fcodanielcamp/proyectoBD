@@ -170,7 +170,7 @@ create table pedido(
     ||to_char(fecha_emision,'ss')
   ) virtual,      --Se propuso que el folio sea la columna virtual solicitada
   fecha_emision               date            default on null sysdate,   
-  importe                     number(10,0)    not null,
+  importe                     number(10,2)    not null,
   fecha_estado_actual         date            default on null sysdate,
   cliente_id not null constraint pedido_cliente_id_fk
     references cliente(cliente_id),

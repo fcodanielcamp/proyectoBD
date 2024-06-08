@@ -888,4 +888,11 @@ insert into inventario_medicamento (inventario_medicamento_id, unidades, farmaci
 insert into inventario_medicamento (inventario_medicamento_id, unidades, farmacia_id, presentacion_medicamento_id) values (inventario_medicamento_seq.nextval, 20, 24, 80);
 insert into inventario_medicamento (inventario_medicamento_id, unidades, farmacia_id, presentacion_medicamento_id) values (inventario_medicamento_seq.nextval, 15, 24, 70);
 
+Prompt Insertando datos iniciales en pedido
+insert into pedido (pedido_id, fecha_emision, importe, fecha_estado_actual, cliente_id, responsable_id, estado_actual, ubicacion_id) values (pedido_seq.nextval, TO_DATE('2024-06-04 15:59:42','YYYY-MM-DD HH24:MI:SS'), 234.56, TO_DATE('2024-06-05 20:46:38','YYYY-MM-DD HH24:MI:SS'), 44, 68, 5, null);
+insert into pedido (pedido_id, fecha_emision, importe, fecha_estado_actual, cliente_id, responsable_id, estado_actual, ubicacion_id) values (pedido_seq.nextval, TO_DATE('2024-06-04 05:20:54','YYYY-MM-DD HH24:MI:SS'), 78.9, TO_DATE('2024-06-05 07:45:21','YYYY-MM-DD HH24:MI:SS'), 6, 25, 3, null);
+insert into pedido (pedido_id, fecha_emision, importe, fecha_estado_actual, cliente_id, responsable_id, estado_actual, ubicacion_id) values (pedido_seq.nextval, TO_DATE('2024-06-04 01:08:16','YYYY-MM-DD HH24:MI:SS'), 145.3, TO_DATE('2024-06-05 16:24:50','YYYY-MM-DD HH24:MI:SS'), 29, 24, 3, null);
+insert into pedido (pedido_id, fecha_emision, importe, fecha_estado_actual, cliente_id, responsable_id, estado_actual, ubicacion_id) values (pedido_seq.nextval, TO_DATE('2024-06-04 17:04:23','YYYY-MM-DD HH24:MI:SS'), 299.99, TO_DATE('2024-06-05 06:21:47','YYYY-MM-DD HH24:MI:SS'), 52, 8, 2, 29);
+insert into pedido (pedido_id, fecha_emision, importe, fecha_estado_actual, cliente_id, responsable_id, estado_actual, ubicacion_id) values (pedido_seq.nextval, TO_DATE('2024-06-04 02:28:09','YYYY-MM-DD HH24:MI:SS'), 89.45, TO_DATE('2024-06-05 20:08:19','YYYY-MM-DD HH24:MI:SS'), 51, 58, 5, null);
+
 commit;
