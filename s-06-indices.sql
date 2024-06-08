@@ -26,6 +26,10 @@ on presentacion_medicamento(nombre_medicamento_id);
 --Por otra, existe el atributo cantidad para evitar esta duplicidad.
 create unique index operacion_medicamento_iuk
 on operacion_medicamento(operacion_id,presentacion_medicamento_id);
+--Por una parte, sirve para los joins comunes.
+--Por otra, existe el atributo unidades para evitar esta duplicidad.
+create unique index inventario_medicamento_iuk
+on inventario_medicamento(farmacia_id,presentacion_medicamento_id);
 --Se suele hacer un join del cliente con su tarjeta, para ver la información completa.
 create index tarjeta_cliente_id_ix
 on tarjeta(cliente_id);
