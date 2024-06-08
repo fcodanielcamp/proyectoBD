@@ -61,17 +61,17 @@ insert into cliente (cliente_id, nombre, apellido_paterno, apellido_materno, ema
 
 Prompt ingresando datos a la tabla ubicacion
 insert into ubicacion (ubicacion_id, latitud, longitud) values (ubicacion_seq.nextval, 'N9°42''7', 'W41°92''27');
-insert into ubicacion (ubicacion_id, latitud, longitud) values (ubicacion_seq.nextval, 'S69°5''44', 'E83°8''53');
-insert into ubicacion (ubicacion_id, latitud, longitud) values (ubicacion_seq.nextval, 'S7°0''6', 'W450°38''42');
-insert into ubicacion (ubicacion_id, latitud, longitud) values (ubicacion_seq.nextval, 'S6°96''6', 'W3°2''5');
-insert into ubicacion (ubicacion_id, latitud, longitud) values (ubicacion_seq.nextval, 'S33°9''26', 'W82°35''23');
-insert into ubicacion (ubicacion_id, latitud, longitud) values (ubicacion_seq.nextval, 'N4°15''9', 'W2°67''19');
+insert into ubicacion (ubicacion_id, latitud, longitud) values (ubicacion_seq.nextval, 'N9°42''8', 'W41°92''25');
+insert into ubicacion (ubicacion_id, latitud, longitud) values (ubicacion_seq.nextval, 'N9°42''9', 'W41°92''23');
+insert into ubicacion (ubicacion_id, latitud, longitud) values (ubicacion_seq.nextval, 'N9°43''0', 'W41°92''21');
+insert into ubicacion (ubicacion_id, latitud, longitud) values (ubicacion_seq.nextval, 'N9°43''1', 'W41°92''19');
+insert into ubicacion (ubicacion_id, latitud, longitud) values (ubicacion_seq.nextval, 'N9°43''2', 'W41°92''17');
 insert into ubicacion (ubicacion_id, latitud, longitud) values (ubicacion_seq.nextval, 'N5°01''2', 'W711°4''4');
-insert into ubicacion (ubicacion_id, latitud, longitud) values (ubicacion_seq.nextval, 'S55°02''08', 'W186°72''72');
-insert into ubicacion (ubicacion_id, latitud, longitud) values (ubicacion_seq.nextval, 'S66°47''1', 'W1°6''4');
-insert into ubicacion (ubicacion_id, latitud, longitud) values (ubicacion_seq.nextval, 'N9°23''7', 'E5°8''88');
-insert into ubicacion (ubicacion_id, latitud, longitud) values (ubicacion_seq.nextval, 'S15°27''38', 'W40°93''5');
-insert into ubicacion (ubicacion_id, latitud, longitud) values (ubicacion_seq.nextval, 'S7°42''6', 'E9°68''04');
+insert into ubicacion (ubicacion_id, latitud, longitud) values (ubicacion_seq.nextval, 'N5°01''3', 'W711°4''6');
+insert into ubicacion (ubicacion_id, latitud, longitud) values (ubicacion_seq.nextval, 'N5°01''4', 'W711°4''8');
+insert into ubicacion (ubicacion_id, latitud, longitud) values (ubicacion_seq.nextval, 'N5°01''5', 'W711°4''10');
+insert into ubicacion (ubicacion_id, latitud, longitud) values (ubicacion_seq.nextval, 'N5°01''6', 'W711°4''12');
+insert into ubicacion (ubicacion_id, latitud, longitud) values (ubicacion_seq.nextval, 'N5°01''7', 'W711°4''14');
 insert into ubicacion (ubicacion_id, latitud, longitud) values (ubicacion_seq.nextval, 'N8°09''6', 'W13°9''9');
 insert into ubicacion (ubicacion_id, latitud, longitud) values (ubicacion_seq.nextval, 'N85°8''78', 'E66°7''00');
 insert into ubicacion (ubicacion_id, latitud, longitud) values (ubicacion_seq.nextval, 'S09°61''76', 'W87°51''94');
@@ -892,7 +892,7 @@ Prompt Insertando datos iniciales en pedido
 insert into pedido (pedido_id, fecha_emision, importe, fecha_estado_actual, cliente_id, responsable_id, estado_actual, ubicacion_id) values (pedido_seq.nextval, TO_DATE('2024-06-04 15:59:42','YYYY-MM-DD HH24:MI:SS'), 234.56, TO_DATE('2024-06-05 20:46:38','YYYY-MM-DD HH24:MI:SS'), 44, 68, 5, null);
 insert into pedido (pedido_id, fecha_emision, importe, fecha_estado_actual, cliente_id, responsable_id, estado_actual, ubicacion_id) values (pedido_seq.nextval, TO_DATE('2024-06-04 05:20:54','YYYY-MM-DD HH24:MI:SS'), 78.9, TO_DATE('2024-06-05 07:45:21','YYYY-MM-DD HH24:MI:SS'), 6, 25, 3, null);
 insert into pedido (pedido_id, fecha_emision, importe, fecha_estado_actual, cliente_id, responsable_id, estado_actual, ubicacion_id) values (pedido_seq.nextval, TO_DATE('2024-06-04 01:08:16','YYYY-MM-DD HH24:MI:SS'), 145.3, TO_DATE('2024-06-05 16:24:50','YYYY-MM-DD HH24:MI:SS'), 29, 24, 3, null);
-insert into pedido (pedido_id, fecha_emision, importe, fecha_estado_actual, cliente_id, responsable_id, estado_actual, ubicacion_id) values (pedido_seq.nextval, TO_DATE('2024-06-04 17:04:23','YYYY-MM-DD HH24:MI:SS'), 299.99, TO_DATE('2024-06-05 06:21:47','YYYY-MM-DD HH24:MI:SS'), 52, 8, 2, 29);
+insert into pedido (pedido_id, fecha_emision, importe, fecha_estado_actual, cliente_id, responsable_id, estado_actual, ubicacion_id) values (pedido_seq.nextval, TO_DATE('2024-06-04 17:04:23','YYYY-MM-DD HH24:MI:SS'), 299.99, TO_DATE('2024-06-05 06:21:47','YYYY-MM-DD HH24:MI:SS'), 52, 8, 2, 13);
 insert into pedido (pedido_id, fecha_emision, importe, fecha_estado_actual, cliente_id, responsable_id, estado_actual, ubicacion_id) values (pedido_seq.nextval, TO_DATE('2024-06-04 02:28:09','YYYY-MM-DD HH24:MI:SS'), 89.45, TO_DATE('2024-06-05 20:08:19','YYYY-MM-DD HH24:MI:SS'), 51, 58, 5, null);
 
 Prompt Insertando datos iniciales en pedido_medicamento
@@ -923,5 +923,20 @@ insert into historico_estado (historico_estado_id, fecha, estado_pedido_id, pedi
 insert into historico_estado (historico_estado_id, fecha, estado_pedido_id, pedido_id) values (historico_estado_seq.nextval, TO_DATE('2024-06-05 06:21:47','YYYY-MM-DD HH24:MI:SS'), 2, 4);
 insert into historico_estado (historico_estado_id, fecha, estado_pedido_id, pedido_id) values (historico_estado_seq.nextval, TO_DATE('2024-06-04 02:28:09','YYYY-MM-DD HH24:MI:SS'), 1, 5);
 insert into historico_estado (historico_estado_id, fecha, estado_pedido_id, pedido_id) values (historico_estado_seq.nextval, TO_DATE('2024-06-05 20:08:19','YYYY-MM-DD HH24:MI:SS'), 5, 5);
+
+Prompt Insertando datos iniciales en historico_ubicacion
+insert into historico_ubicacion (historico_ubicacion_id, fecha, pedido_id, ubicacion_id) values (historico_ubicacion_seq.nextval, TO_DATE('2024-06-05 07:30:00','YYYY-MM-DD HH24:MI:SS'), 2, 1);
+insert into historico_ubicacion (historico_ubicacion_id, fecha, pedido_id, ubicacion_id) values (historico_ubicacion_seq.nextval, TO_DATE('2024-06-05 07:33:00','YYYY-MM-DD HH24:MI:SS'), 2, 2);
+insert into historico_ubicacion (historico_ubicacion_id, fecha, pedido_id, ubicacion_id) values (historico_ubicacion_seq.nextval, TO_DATE('2024-06-05 07:36:00','YYYY-MM-DD HH24:MI:SS'), 2, 3);
+insert into historico_ubicacion (historico_ubicacion_id, fecha, pedido_id, ubicacion_id) values (historico_ubicacion_seq.nextval, TO_DATE('2024-06-05 07:39:00','YYYY-MM-DD HH24:MI:SS'), 2, 4);
+insert into historico_ubicacion (historico_ubicacion_id, fecha, pedido_id, ubicacion_id) values (historico_ubicacion_seq.nextval, TO_DATE('2024-06-05 07:42:00','YYYY-MM-DD HH24:MI:SS'), 2, 5);
+insert into historico_ubicacion (historico_ubicacion_id, fecha, pedido_id, ubicacion_id) values (historico_ubicacion_seq.nextval, TO_DATE('2024-06-05 07:45:00','YYYY-MM-DD HH24:MI:SS'), 2, 6);
+insert into historico_ubicacion (historico_ubicacion_id, fecha, pedido_id, ubicacion_id) values (historico_ubicacion_seq.nextval, TO_DATE('2024-06-05 16:09:31','YYYY-MM-DD HH24:MI:SS'), 3, 7);
+insert into historico_ubicacion (historico_ubicacion_id, fecha, pedido_id, ubicacion_id) values (historico_ubicacion_seq.nextval, TO_DATE('2024-06-05 16:12:31','YYYY-MM-DD HH24:MI:SS'), 3, 8);
+insert into historico_ubicacion (historico_ubicacion_id, fecha, pedido_id, ubicacion_id) values (historico_ubicacion_seq.nextval, TO_DATE('2024-06-05 16:15:31','YYYY-MM-DD HH24:MI:SS'), 3, 9);
+insert into historico_ubicacion (historico_ubicacion_id, fecha, pedido_id, ubicacion_id) values (historico_ubicacion_seq.nextval, TO_DATE('2024-06-05 16:18:31','YYYY-MM-DD HH24:MI:SS'), 3, 10);
+insert into historico_ubicacion (historico_ubicacion_id, fecha, pedido_id, ubicacion_id) values (historico_ubicacion_seq.nextval, TO_DATE('2024-06-05 16:21:31','YYYY-MM-DD HH24:MI:SS'), 3, 11);
+insert into historico_ubicacion (historico_ubicacion_id, fecha, pedido_id, ubicacion_id) values (historico_ubicacion_seq.nextval, TO_DATE('2024-06-05 16:24:31','YYYY-MM-DD HH24:MI:SS'), 3, 12);
+insert into historico_ubicacion (historico_ubicacion_id, fecha, pedido_id, ubicacion_id) values (historico_ubicacion_seq.nextval, TO_DATE('2024-06-05 06:21:47','YYYY-MM-DD HH24:MI:SS'), 4, 13);
 
 commit;
