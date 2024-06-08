@@ -895,4 +895,19 @@ insert into pedido (pedido_id, fecha_emision, importe, fecha_estado_actual, clie
 insert into pedido (pedido_id, fecha_emision, importe, fecha_estado_actual, cliente_id, responsable_id, estado_actual, ubicacion_id) values (pedido_seq.nextval, TO_DATE('2024-06-04 17:04:23','YYYY-MM-DD HH24:MI:SS'), 299.99, TO_DATE('2024-06-05 06:21:47','YYYY-MM-DD HH24:MI:SS'), 52, 8, 2, 29);
 insert into pedido (pedido_id, fecha_emision, importe, fecha_estado_actual, cliente_id, responsable_id, estado_actual, ubicacion_id) values (pedido_seq.nextval, TO_DATE('2024-06-04 02:28:09','YYYY-MM-DD HH24:MI:SS'), 89.45, TO_DATE('2024-06-05 20:08:19','YYYY-MM-DD HH24:MI:SS'), 51, 58, 5, null);
 
+Prompt Insertando datos iniciales en pedido_medicamento
+insert into pedido_medicamento (pedido_medicamento_id, unidades, pedido_id, farmacia_id, presentacion_medicamento_id) values (pedido_medicamento_seq.nextval, 1, 1, 1, 42);
+insert into pedido_medicamento (pedido_medicamento_id, unidades, pedido_id, farmacia_id, presentacion_medicamento_id) values (pedido_medicamento_seq.nextval, 1, 2, 3, 80);
+insert into pedido_medicamento (pedido_medicamento_id, unidades, pedido_id, farmacia_id, presentacion_medicamento_id) values (pedido_medicamento_seq.nextval, 2, 3, 4, 15);
+insert into pedido_medicamento (pedido_medicamento_id, unidades, pedido_id, farmacia_id, presentacion_medicamento_id) values (pedido_medicamento_seq.nextval, 1, 4, 6, 17);
+insert into pedido_medicamento (pedido_medicamento_id, unidades, pedido_id, farmacia_id, presentacion_medicamento_id) values (pedido_medicamento_seq.nextval, 3, 5, 7, 68);
+insert into pedido_medicamento (pedido_medicamento_id, unidades, pedido_id, farmacia_id, presentacion_medicamento_id) values (pedido_medicamento_seq.nextval, 2, 1, 10, 52);
+insert into pedido_medicamento (pedido_medicamento_id, unidades, pedido_id, farmacia_id, presentacion_medicamento_id) values (pedido_medicamento_seq.nextval, 1, 2, 12, 23);
+insert into pedido_medicamento (pedido_medicamento_id, unidades, pedido_id, farmacia_id, presentacion_medicamento_id) values (pedido_medicamento_seq.nextval, 1, 3, 13, 5);
+insert into pedido_medicamento (pedido_medicamento_id, unidades, pedido_id, farmacia_id, presentacion_medicamento_id) values (pedido_medicamento_seq.nextval, 3, 4, 15, 100);
+insert into pedido_medicamento (pedido_medicamento_id, unidades, pedido_id, farmacia_id, presentacion_medicamento_id) values (pedido_medicamento_seq.nextval, 1, 5, 17, 88);
+insert into pedido_medicamento (pedido_medicamento_id, unidades, pedido_id, farmacia_id, presentacion_medicamento_id) values (pedido_medicamento_seq.nextval, 1, 1, 20, 3);
+insert into pedido_medicamento (pedido_medicamento_id, unidades, pedido_id, farmacia_id, presentacion_medicamento_id) values (pedido_medicamento_seq.nextval, 3, 2, 22, 1);
+insert into pedido_medicamento (pedido_medicamento_id, unidades, pedido_id, farmacia_id, presentacion_medicamento_id) values (pedido_medicamento_seq.nextval, 3, 3, 24, 70);
+
 commit;
