@@ -28,11 +28,13 @@ create or replace trigger pedido_medicamento_trigger
           raise_application_error(-20001, 'No hay suficiente stock del medicamento en la farmacia solicitada.');
         end if;
       when updating then
-        dbms_output.put_line('No se puede actualizar las unidades solicitadas en un pedido');
-        raise_application_error(-20002,'No se permiten actualizaciones en las unidades solicitadas de un medicamento.');
+        if :new.unidades != :old.unidades then
+          dbms_output.put_line('No se puede actualizar las unidades solicitadas en un pedido');
+          raise_application_error(-20002,'No se permiten actualizaciones en las unidades solicitadas de un medicamento.');
+        end if;
       when deleting then
-        dbms_output.put_line('No se puede eliminar las unidades solicitadas en un pedido');
-        raise_application_error(-20003,'No se permiten eliminaciones en las unidades solicitadas de un medicamento.');
+        dbms_output.put_line('No se puede eliminar un registro de un medicamento en un pedido');
+        raise_application_error(-20003,'No se permiten eliminaciones del registro de un medicamento en un pedido.');
     end case;
   end;
 /
