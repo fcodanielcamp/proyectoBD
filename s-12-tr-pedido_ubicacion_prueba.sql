@@ -5,7 +5,7 @@
 --Comentarios de la fecha, autores y descripcion
 Prompt conectado como admin
 connect vl_proy_admin/proyecto
-Prompt Probando trigger pedido_medicamento_trigger
+Prompt Probando trigger pedido_ubicacion_trigger
 set serveroutput on
 prompt Ejecutando pruebas automáticas
 

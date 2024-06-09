@@ -3,6 +3,10 @@
 --@Descripción: Código para la creacion de el procedimiento el cual hace las
 --              inserciones correspondientes para cada pedido con su respectivo historial
 
+Prompt conectado como admin
+connect vl_proy_admin/proyecto
+Prompt Creando procedimiento s-13-p-crea_actualiza_pedido.sql.
+
 create or replace procedure crea_actualiza_pedido (
   v_pedido_id        in       out         number,
   v_fecha_emision    in       date        default     null,

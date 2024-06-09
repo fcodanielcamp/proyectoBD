@@ -14,3 +14,5 @@
 @s-12-tr-pedido_ubicacion_prueba.sql
 @s-13-p-crea_actualiza_pedido.sql
 @s-14-p-crea_actualiza_pedido-prueba.sql
+@s-15-fx-total_almacen.sql
+@s-16-fx-total_almacen-prueba.sql

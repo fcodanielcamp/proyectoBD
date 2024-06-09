@@ -61,12 +61,11 @@ Prompt ========================================
 begin
   insert into pedido_medicamento(pedido_medicamento_id,unidades,pedido_id,farmacia_id,presentacion_medicamento_id)
   values (pedido_medicamento_seq.nextval,30,4,1,40);
+  raise_application_error(-20011,'ERROR: El trigger no generó error -20020');
 exception
   when others then
-    if sqlcode = -20001 then
-      raise_application_error(-20011,'ERROR: El trigger generó error -20001');
-    elsif sqlcode = 100 then
-      dbms_output.put_line('Ok - Prueba exitosa! - el error 100 implica que el medicamento no existe en la farmacia solicitiada.');
+    if sqlcode = -20020 then
+      dbms_output.put_line('Ok - Prueba exitosa!, se esperaba error -20020');
     else
       dbms_output.put_line(' ERROR - código no esperado: '|| sqlcode);
       raise; ---importante. El error se relanza para ver la causa real
