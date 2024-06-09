@@ -1,6 +1,8 @@
---@Autor(es):       Francisco Daniel López
---@Fecha creación:  08/06/2024
---@Descripción:     Prueba idempotente de s-11-tr-pedido_medicamento_unidades.sql
+--@Autor(es): Vigi Garduño Marco Alejandro, López Campillo Francisco Daniel
+--@Fecha creación: 08/06/2024
+--@Descripción: Prueba idempotente de s-11-tr-pedido_medicamento_unidades.sql
+
+--Comentarios de la fecha, autores y descripcion
 Prompt conectado como admin
 connect vl_proy_admin/proyecto
 Prompt Probando trigger pedido_medicamento_trigger
@@ -41,7 +43,7 @@ begin
 exception
   when others then
     if sqlcode = -20001 then
-      dbms_output.put_line('Ok - Prueba fallida. NO SE ESPERABA ERROR -20001');
+      dbms_output.put_line('Prueba fallida. NO SE ESPERABA ERROR -20001');
     else
       dbms_output.put_line('ERROR: El trigger generó un error inesperado.');
       raise; ---importante. El error se relanza para ver la causa real
