@@ -23,7 +23,7 @@ end;
 prompt Creando usuario vl_proy_admin
 create user vl_proy_admin identified by proyecto quota unlimited on users;
 prompt Creando usuario vl_proy_invitado
-create user vl_proy_invitado identified by proyecto;
+create user vl_proy_invitado identified by proyecto quota unlimited on users;
 
 prompt Creando roles
 create role rol_admin;
