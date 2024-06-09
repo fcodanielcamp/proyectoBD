@@ -2,7 +2,9 @@
 --@Fecha creación: 06/06/2024
 --@Descripción: Código para la prueba de el procedimiento
 
-
+Prompt conectado como admin
+connect vl_proy_admin/proyecto
+Prompt Probando procedimiento s-13-p-crea_actualiza_pedido.sql.
 set serveroutput on
 -- Declaramos la variable
 variable v_pedido_id number

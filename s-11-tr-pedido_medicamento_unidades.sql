@@ -11,21 +11,36 @@ create or replace trigger pedido_medicamento_trigger
   for each row
   declare
     v_unidades_disponibles inventario_medicamento.unidades%type;
+    v_medicamento_existe number(1,0);
   begin
     case
       when inserting then
-        select unidades into v_unidades_disponibles
+        select count(*) into v_medicamento_existe
         from inventario_medicamento
-        where farmacia_id = :new.farmacia_id
-          and presentacion_medicamento_id= :new.presentacion_medicamento_id;
-        if :new.unidades > v_unidades_disponibles then
-          dbms_output.put_line('No hay unidades suficientes del medicamento con presentacion_medicamento_id = '
-            || :new.presentacion_medicamento_id
-            || ' en la farmacia con centro_operaciones_id = '
-            || :new.farmacia_id
-            || '.'
-          );
-          raise_application_error(-20001, 'No hay suficiente stock del medicamento en la farmacia solicitada.');
+        where presentacion_medicamento_id=:new.presentacion_medicamento_id
+          and farmacia_id=:new.farmacia_id;
+        if v_medicamento_existe = 1 then
+          select unidades into v_unidades_disponibles
+          from inventario_medicamento
+          where farmacia_id = :new.farmacia_id
+            and presentacion_medicamento_id= :new.presentacion_medicamento_id;
+          if :new.unidades > v_unidades_disponibles then
+            dbms_output.put_line('No hay unidades suficientes del medicamento con presentacion_medicamento_id = '
+              || :new.presentacion_medicamento_id
+              || ' en la farmacia con centro_operaciones_id = '
+              || :new.farmacia_id
+              || '.'
+            );
+            raise_application_error(-20001, 'No hay suficiente stock del medicamento en la farmacia solicitada.');
+          end if;
+        else
+          dbms_output.put_line('El medicamento con presentacion_medicamento_id = '
+              || :new.presentacion_medicamento_id
+              || ' no existe en la farmacia con centro_operaciones_id = '
+              || :new.farmacia_id
+              || '.'
+            );
+            raise_application_error(-20020, 'No hay unidades del medicamento solicitado en la farmacia solicitada.');
         end if;
       when updating then
         if :new.unidades != :old.unidades then

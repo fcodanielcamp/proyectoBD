@@ -5,7 +5,7 @@
 --Comentarios de la fecha, autores y descripcion
 Prompt conectado como admin
 connect vl_proy_admin/proyecto
-Prompt Creando trigger pedido_medicamento_trigger
+Prompt Creando trigger pedido_ubicacion_trigger
 create or replace trigger pedido_ubicacion_trigger
   before insert or update or delete of ubicacion_id on pedido
   for each row
