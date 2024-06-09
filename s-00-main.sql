@@ -12,3 +12,5 @@
 @s-12-tr-pedido_medicamento_unidades_prueba.sql
 @s-11-tr-pedido_ubicacion.sql
 @s-12-tr-pedido_ubicacion_prueba.sql
+@s-13-p-crea_actualiza_pedido.sql
+@s-14-p-crea_actualiza_pedido-prueba.sql
