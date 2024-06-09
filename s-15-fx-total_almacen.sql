@@ -32,9 +32,3 @@ begin
 end;
 /
 show errors
-
-  --select o.almacen_id,sum(om.unidades) as total_unidades_ingresadas
-  --from operacion_medicamento om
-  --natural join operacion o
-  --where o.tipo = 'E'
-  --group by o.almacen_id;
