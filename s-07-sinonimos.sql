@@ -69,7 +69,12 @@ select * from operacion;
 select * from nombre_medicamento;
 
 
+Prompt conectando con el usuario admin
+-- Conectando con el usuario admin
+conn vl_proy_admin/proyecto
+
 Prompt creando los sinonimos de todas las tablas con el prefijo de nuestros apellidos 'Vigi' y 'López' - 'vl'
+set serveroutput on
 -- Programa anónimo PL/SQL para generar sinónimos privados para todas las tablas del proyecto
 declare
     v_prefijo varchar2(2) := 'vl'; -- Prefijo de los apellidos 'Vigi' y 'López'
@@ -77,11 +82,11 @@ begin
     -- Se itera por todas las tablas del proyecto
     for tabla in (select table_name from user_tables) loop
         -- Creamos el nombre del sinónimo con el prefijo, seguido de '_' y luego el nombre de la tabla
-        execute immediate 'create synonym ' || v_prefijo || '_' || tabla.table_name || ' FOR vl_proy_admin.' || tabla.table_name;
+        execute immediate 'create or replace synonym ' || v_prefijo || '_' || tabla.table_name || ' FOR vl_proy_admin.' || tabla.table_name;
     end loop;
 
     -- Se confirma si todo salio bien
-    dbms_output.put_line('LOs sinónimos se crearon correctamente');
+    dbms_output.put_line('Los sinónimos se crearon correctamente');
 exception
     when others then
         -- En caso de algún error, se muestra el mensaje de error
