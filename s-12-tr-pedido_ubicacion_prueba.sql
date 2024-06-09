@@ -1,6 +1,6 @@
 --@Autor(es): Vigi Garduño Marco Alejandro, López Campillo Francisco Daniel
 --@Fecha creación: 08/06/2024
---@Descripción: Prueba idempotente de s-13-tr-pedido_ubicacion.sql
+--@Descripción: Prueba idempotente de s-11-tr-pedido_ubicacion.sql
 
 --Comentarios de la fecha, autores y descripcion
 Prompt conectado como admin

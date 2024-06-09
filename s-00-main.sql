@@ -10,5 +10,5 @@
 --@s-10-consultas.sql
 @s-11-tr-pedido_medicamento_unidades.sql
 @s-12-tr-pedido_medicamento_unidades_prueba.sql
-@s-13-tr-pedido_ubicacion.sql
-@s-14-tr-pedido_ubicacion_prueba.sql
+@s-11-tr-pedido_ubicacion.sql
+@s-12-tr-pedido_ubicacion_prueba.sql
