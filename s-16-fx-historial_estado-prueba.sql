@@ -1,5 +1,9 @@
 
-SET SERVEROUTPUT ON;
+--@Autor(es): Vigi Garduño Marco Alejandro, López Campillo Francisco Daniel
+--@Fecha creación: 09/06/2024
+--@Descripción: Prueba para la función s-15-fx-historial_estado.sql
+
+set serveroutput on;
 
 Prompt =======================================
 Prompt Prueba 1
@@ -13,7 +17,7 @@ select he.pedido_id, he.fecha, ep.clave, ep.descripcion
         order by he.fecha;
 
 Prompt Ejecutando la función para obtener el historial de estados de un pedido específico
-SELECT obtener_historial_estados(4) AS obtener_historial_estados_4 FROM DUAL;
+select obtener_historial_estados(4) as obtener_historial_estados_4 from DUAL;
 
 
 Prompt =======================================
@@ -28,4 +32,4 @@ select he.pedido_id, he.fecha, ep.clave, ep.descripcion
         order by he.fecha;
 
 Prompt Ejecutando la función para obtener el historial de estados de un pedido específico
-SELECT obtener_historial_estados(9) AS obtener_historial_estados_9 FROM DUAL;
+select obtener_historial_estados(9) as obtener_historial_estados_9 from DUAL;
