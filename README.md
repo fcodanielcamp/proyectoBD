@@ -1,1 +1,1 @@
-Falta corregir el modelo relacional, la relación entre nombre_medicamento y presentacion_medicamento es incorrecta en su notación.
+Proyecto para la materia Bases de datos impartida en la Facultad de Ingeniería (UNAM)
