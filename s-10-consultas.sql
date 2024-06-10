@@ -3,6 +3,7 @@
 --@Descripción: Consultas empleando inner join, natural join, outer join funciones de agregación (group by y having)
 --              álgebra relacional, subconsultas, consultas usando sinonimos, vistas, tablas temporales y tablas externas.
 
+set linesize window
 Prompt conectando como invitado
 connect vl_proy_invitado/proyecto
 -- Consulta de una tabla con el uso de un sinonimo

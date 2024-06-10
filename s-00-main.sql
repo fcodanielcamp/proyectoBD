@@ -18,3 +18,5 @@
 @s-14-p-actualiza_pedido_ubicacion-prueba.sql
 @s-15-fx-total_almacen.sql
 @s-16-fx-total_almacen-prueba.sql
+@s-15-fx-historial_estado.sql
+@s-16-fx-historial_estado-prueba.sql
